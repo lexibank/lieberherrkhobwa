@@ -6,6 +6,7 @@ from pylexibank.dataset import Dataset as BaseDataset
 
 
 class Dataset(BaseDataset):
+    id = 'lieberherrkhobwa'
     dir = Path(__file__).parent
 
     def cmd_download(self, **kw):

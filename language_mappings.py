@@ -1,0 +1,31 @@
+MAPPINGS = {
+    'Duhumbi': 'chug1252',
+    'Khispi': 'lish1235',
+    'Rupa': 'rupa1234',
+    'Shergaon': 'sher1261',
+    'Rahung': 'rahu1234',
+    'Khoitam': 'khoi1252',
+    'Jerigaon': 'jeri1243',
+    'Khoina': 'khoi1253',
+    'Dikhyang': 'dikh1234',
+    'Singchung': 'sing1271',
+    'Wangho': 'wang1301',
+    'Bichom': 'bich1234',
+    'Kaspi': 'kasp1234',
+    'Namphri': 'namp1239',
+    'Bulu': 'bulu1255',
+    'Kojo Rojo': 'kojo1234',
+    'Rawa': 'rawa1269',
+    'Saria': 'sari1249',
+    'Chayangtajo': 'bugu1245',
+    'Lasumpatte': 'lasu1234',
+    'ZMYCC': None,  # Chinese from Sun1991
+    'Li Daqin': 'sulu1241',
+    'ʦB': None,  # Proto-Reconstruction etc.?
+    'WB': None,  #
+    'WT': None,
+    'PT': None,
+    'PBG': None,
+    'PH': None,
+    'PKC': None,
+}
