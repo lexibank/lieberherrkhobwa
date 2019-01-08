@@ -43,4 +43,6 @@ class Dataset(BaseDataset):
                                     Parameter_ID=meaning
                                 )
                     elif row[0].isdigit() is False:
+                        # TODO: Take care manually of line 143, 'to run'.
+                        # TODO: Take care manually of line 149, 'to say'.
                         print('Cognate Group')
