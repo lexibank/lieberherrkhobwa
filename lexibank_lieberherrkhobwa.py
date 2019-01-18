@@ -33,7 +33,10 @@ class Dataset(BaseDataset):
                 elif i > 0:
                     if row[0].isdigit():
                         for j, col in enumerate(row):
-                            if j == 1:
+                            if j == 24:
+                                # skip over empty column
+                                continue
+                            elif j == 1:
                                 meaning = '{0}_l{1}'.format(slug(col), i + 1)
                                 ds.add_concept(ID=meaning, Name=col)
                             elif j > 1:
