@@ -100,58 +100,9 @@ class Dataset(BaseDataset):
                                 lexeme=row,
                                 Cognateset_ID=cognacy,
                                 Source='Lieberherr2017',
-                                Alignment='',
-                                Alignment_Source=''
+                                #Alignment='',
+                                #Alignment_Source='List2014'
                             )
 
             # align cognates
             ds.align_cognates()
-
-        return
-
-        # Automatically set the header, which is being stripped by the system...
-        header_line = '#\tGloss\tDuhumbi\tKhispi\tRupa\tShergaon\tRahung\tKhoitam\tJerigaon\tKhoina\tDikhyang\tSingchung\tWangho\tBichom\tKaspi\tNamphri\tBulu\tKojo Rojo\tRawa\tSaria\tChayangtajo\tLasumpatte\tZMYYC\tLi Daqin\t\tʦB\tWB\tWT\tPT\tPBG\tPH\tPKC'
-        header = header_line.split('\t')
-
-        badcogs = '?'
-
-        for i in range(0, len(raw_data)-1, 2):
-            tmp = dict(zip(header, raw_data[i]))
-            concept = raw_data[i][1]
-            number = raw_data[i][0]
-
-            import pprint
-            pprint.pprint(tmp)
-            print(list(enumerate(header[2:])))
-            print(lmap)
-
-            for j, language in enumerate(header[2:]):
-                if slug(language) not in lmap:
-                    continue
-
-                cog = raw_data[i+1][j+2]
-                form = tmp[language]
-                if form.strip() and form.strip() != 'NA':
-                    lang_id = lmap[slug(language)]
-                    parameter_id = slug(concept)
-
-                    ipa = form.replace('- ', '-')
-                    ipa = ipa.split(' ~ ')[0].split('/')[0].split(',')[0]
-
-                    tks = ipa2tokens(ipa.replace(' ', '_').replace('-',
-                        '+').replace('*', ''))
-
-                    cognacy = '%s-%s' % (concept, cog)
-
-    #                print(lang_id, parameter_id, cognacy)
-    #                print(form, ipa, tks)
-    #                print()
-
-#                    self.cldf.add_lexemes(
-#                        Language_ID=lang_id,
-#                        Parameter_ID=parameter_id,
-#                        Form=form,
-#                        Value=ipa,
-#                        Segments=tks,
-#                        Cognacy=cognacy,
-#                    )
