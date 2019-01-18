@@ -1,22 +1,24 @@
-ID	Name	Glottocode	Glottolog_Name	Source
-1	bichom	bich1234	Bichom	Lieberherr2017
-2	bulu	bulu1255	Bulu	Lieberherr2017
-3	chayangtajo	bugu1245	Chayangtajo	Lieberherr2017
-4	dikhyang	dikh1234	Dikhyang	Lieberherr2017
-5	duhumbi	chug1252	Chug	Lieberherr2017
-6	jerigaon	jeri1243	Jerigaon	Lieberherr2017
-7	kaspi	kasp1234	Kaspi	Lieberherr2017
-8	khispi	lish1235	Lish	Lieberherr2017
-9	khoina	khoi1253	Khoina	Lieberherr2017
-10	khoitam	khoi1252	Khoitam	Lieberherr2017
-11	kojorojo	kojo1234	Kojo Rojo	Lieberherr2017
-12	lasumpatte	lasu1234	Lasumpatte	Lieberherr2017
-13	lidaqin	sulu1241	Eastern Puroik	Lieberherr2017
-14	namphri	namp1239	Namphri	Lieberherr2017
-15	rahung	rahu1234	Rahung	Lieberherr2017
-16	rawa	rawa1269	Rawa (Puroik)	Lieberherr2017
-17	rupa	rupa1234	Rupa	Lieberherr2017
-18	saria	sari1249	Sario Saria	Lieberherr2017
-19	shergaon	sher1261	Shergaon	Lieberherr2017
-20	singchung	sing1271	Singchung	Lieberherr2017
-21	wangho	wang1301	Wangho	Lieberherr2017
+ID,Name,Glottocode,Glottolog_Name,Source
+1,bichom,bich1234,Bichom,Lieberherr2017
+2,bulu,bulu1255,Bulu,Lieberherr2017
+3,chayangtajo,bugu1245,Chayangtajo,Lieberherr2017
+4,dikhyang,dikh1234,Dikhyang,Lieberherr2017
+5,duhumbi,chug1252,Chug,Lieberherr2017
+6,jerigaon,jeri1243,Jerigaon,Lieberherr2017
+7,kaspi,kasp1234,Kaspi,Lieberherr2017
+8,khispi,lish1235,Lish,Lieberherr2017
+9,khoina,khoi1253,Khoina,Lieberherr2017
+10,khoitam,khoi1252,Khoitam,Lieberherr2017
+11,kojorojo,kojo1234,Kojo Rojo,Lieberherr2017
+12,lasumpatte,lasu1234,Lasumpatte,Lieberherr2017
+13,lidaqin,sulu1241,Eastern Puroik,Lieberherr2017
+14,namphri,namp1239,Namphri,Lieberherr2017
+15,rahung,rahu1234,Rahung,Lieberherr2017
+16,rawa,rawa1269,Rawa (Puroik),Lieberherr2017
+17,rupa,rupa1234,Rupa,Lieberherr2017
+18,saria,sari1249,Sario Saria,Lieberherr2017
+19,shergaon,sher1261,Shergaon,Lieberherr2017
+20,singchung,sing1271,Singchung,Lieberherr2017
+21,wangho,wang1301,Wangho,Lieberherr2017
+22,zmyyc,sulu1241,Eastern Puroik,Sun1991
+23,lidaqin,kuru1311,Kurung Kumey,Li2004
