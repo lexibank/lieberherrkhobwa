@@ -3,6 +3,7 @@
     "dc:bibliographicCitation": "",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:identifier": "",
+    "dc:source": "sources.bib",
     "dc:title": "lieberherrkhobwa",
     "dcat:accessURL": "https://github.com/lexibank/lieberherrkhobwa",
     "rdf:ID": "lieberherrkhobwa",

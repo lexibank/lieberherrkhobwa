@@ -52,6 +52,7 @@ class Dataset(BaseDataset):
             }
 
             # iterate over the source adding lexemes and collecting cognates
+            cognate_sets = []
             for i in range(1, len(raw_data)-1, 2):
                 tmp = dict(zip(languages, raw_data[i]))
                 concept = raw_data[i][1]
@@ -82,11 +83,11 @@ class Dataset(BaseDataset):
                             ipa = split_text(ipa, '~/~⪤,')[0]
                             tks = self.tokenizer(None, '^%s$' % ipa)
 
+                            # lingpy now requires this to be an integer
                             cognacy = '%s-%s' % (slug(concept), cog)
-
-                            print(language, concept, cognacy)
-                            print(form, ipa, tks)
-                            print()
+                            if cognacy not in cognate_sets:
+                                cognate_sets.append(cognacy)
+                            cognate_id = cognate_sets.index(cognacy)
 
                         for row in ds.add_lexemes(
                             Language_ID=lang2id[language],
@@ -94,15 +95,14 @@ class Dataset(BaseDataset):
                             Form=form,
                             Value=ipa,
                             Segments=tks,
-                            Cognacy=cognacy,
+                            Cognacy=cognate_id,
                         ):
                             ds.add_cognate(
                                 lexeme=row,
-                                Cognateset_ID=cognacy,
+                                Cognateset_ID=cognate_id,
                                 Source='Lieberherr2017',
-                                #Alignment='',
-                                #Alignment_Source='List2014'
+                                Alignment_Source='List2014'
                             )
 
             # align cognates
-            ds.align_cognates()
+            #ds.align_cognates()
