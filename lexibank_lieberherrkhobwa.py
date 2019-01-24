@@ -16,7 +16,7 @@ class Dataset(BaseDataset):
         pass
 
     def cmd_install(self, **kw):
-        data = self.raw / 'dataset_khobwa.csv'
+        data_ = self.raw / 'dataset.csv'
 
         with self.cldf as ds:
             for k, v in MAPPINGS.items():
@@ -25,24 +25,7 @@ class Dataset(BaseDataset):
             language_index = {}
             meaning = None
 
-            for i, row in enumerate(iterrows(data)):
-                if i == 0:
-                    for j, col in enumerate(row):
-                        if (j > 1) and col:
-                            language_index[j] = slug(col)
-                elif i > 0:
-                    if row[0].isdigit():
-                        for j, col in enumerate(row):
-                            if j == 1:
-                                meaning = '{0}_l{1}'.format(slug(col), i + 1)
-                                ds.add_concept(ID=meaning, Name=col)
-                            elif j > 1:
-                                ds.add_lexemes(
-                                    Value=col,
-                                    Language_ID=language_index[j],
-                                    Parameter_ID=meaning
-                                )
-                    elif row[0].isdigit() is False:
-                        # TODO: Take care manually of line 143, 'to run'.
-                        # TODO: Take care manually of line 149, 'to say'.
-                        print('Cognate Group')
+            D = {0: ['doculect', 'concept', 'value', 'form']}
+
+
+
