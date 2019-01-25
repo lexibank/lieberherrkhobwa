@@ -105,4 +105,4 @@ class Dataset(BaseDataset):
                             )
 
             # align cognates
-            #ds.align_cognates()
+            ds.align_cognates()
