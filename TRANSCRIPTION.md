@@ -165,29 +165,29 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|:----------|-----------:|----------:|:-------|:------------------|
-| 1-1210-1 | 1 | 1210 | laⁱ | l <s> aⁱ </s> |
-| 1-1343-1 | 1 | 1343 | hanaⁱ | h a n <s> aⁱ </s> |
-| 1-163-1 | 1 | 163 | esaⁱ | e s <s> aⁱ </s> |
-| 10-1220-1 | 10 | 1220 | ʔa-nɛʰ | ʔ a n <s> ɛʰ </s> |
-| 14-1210-1 | 14 | 1210 | elaⁱ | e l <s> aⁱ </s> |
-| 14-1343-1 | 14 | 1343 | hanaⁱ | h a n <s> aⁱ </s> |
-| 14-2098-1 | 14 | 2098 | laⁱ | l <s> aⁱ </s> |
-| 14-946-1 | 14 | 946 | məfaⁱ | m ə f <s> aⁱ </s> |
-| 15-1220-1 | 15 | 1220 | ʔa-nɛʰ | ʔ a n <s> ɛʰ </s> |
-| 16-227-1 | 16 | 227 | ʧuei | tʃ <s> uei </s> |
-| 20-1210-1 | 20 | 1210 | laⁱ | l <s> aⁱ </s> |
-| 20-1343-1 | 20 | 1343 | hanaⁱ | h a n <s> aⁱ </s> |
-| 20-163-1 | 20 | 163 | esaⁱ | e s <s> aⁱ </s> |
-| 21-1210-1 | 21 | 1210 | elaⁱ | e l <s> aⁱ </s> |
-| 21-163-1 | 21 | 163 | esaⁱ | e s <s> aⁱ </s> |
-| 21-2009-1 | 21 | 2009 | ʧaⁱ | tʃ <s> aⁱ </s> |
-| 6-1220-1 | 6 | 1220 | ʔa-nɛʰ | ʔ a n <s> ɛʰ </s> |
-| 7-1210-1 | 7 | 1210 | laⁱ | l <s> aⁱ </s> |
-| 7-1343-1 | 7 | 1343 | hanaⁱ | h a n <s> aⁱ </s> |
-| 7-2098-1 | 7 | 2098 | laⁱ | l <s> aⁱ </s> |
-| 7-221-1 | 7 | 221 | baⁱ | b <s> aⁱ </s> |
-| 7-946-1 | 7 | 946 | nəfaⁱ | n ə f <s> aⁱ </s> |
+|:-------------------------|:-----------|:---------------|:-------|:------------------|
+| bichom-black-163-1 | bichom | black-163 | esaⁱ | e s <s> aⁱ </s> |
+| bichom-heavy-1210-1 | bichom | heavy-1210 | laⁱ | l <s> aⁱ </s> |
+| bichom-sun-1343-1 | bichom | sun-1343 | hanaⁱ | h a n <s> aⁱ </s> |
+| jerigaon-tail-1220-1 | jerigaon | tail-1220 | ʔa-nɛʰ | ʔ a n <s> ɛʰ </s> |
+| kaspi-blood-946-1 | kaspi | blood-946 | nəfaⁱ | n ə f <s> aⁱ </s> |
+| kaspi-fire-221-1 | kaspi | fire-221 | baⁱ | b <s> aⁱ </s> |
+| kaspi-footorleg-2098-1 | kaspi | footorleg-2098 | laⁱ | l <s> aⁱ </s> |
+| kaspi-heavy-1210-1 | kaspi | heavy-1210 | laⁱ | l <s> aⁱ </s> |
+| kaspi-sun-1343-1 | kaspi | sun-1343 | hanaⁱ | h a n <s> aⁱ </s> |
+| khoitam-tail-1220-1 | khoitam | tail-1220 | ʔa-nɛʰ | ʔ a n <s> ɛʰ </s> |
+| namphri-blood-946-1 | namphri | blood-946 | məfaⁱ | m ə f <s> aⁱ </s> |
+| namphri-footorleg-2098-1 | namphri | footorleg-2098 | laⁱ | l <s> aⁱ </s> |
+| namphri-heavy-1210-1 | namphri | heavy-1210 | elaⁱ | e l <s> aⁱ </s> |
+| namphri-sun-1343-1 | namphri | sun-1343 | hanaⁱ | h a n <s> aⁱ </s> |
+| rahung-tail-1220-1 | rahung | tail-1220 | ʔa-nɛʰ | ʔ a n <s> ɛʰ </s> |
+| rawa-fish-227-1 | rawa | fish-227 | ʧuei | tʃ <s> uei </s> |
+| singchung-black-163-1 | singchung | black-163 | esaⁱ | e s <s> aⁱ </s> |
+| singchung-heavy-1210-1 | singchung | heavy-1210 | laⁱ | l <s> aⁱ </s> |
+| singchung-sun-1343-1 | singchung | sun-1343 | hanaⁱ | h a n <s> aⁱ </s> |
+| wangho-black-163-1 | wangho | black-163 | esaⁱ | e s <s> aⁱ </s> |
+| wangho-dog-2009-1 | wangho | dog-2009 | ʧaⁱ | tʃ <s> aⁱ </s> |
+| wangho-heavy-1210-1 | wangho | heavy-1210 | elaⁱ | e l <s> aⁱ </s> |
 
 (22 rows)
 

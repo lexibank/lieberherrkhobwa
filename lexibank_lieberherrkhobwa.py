@@ -30,26 +30,24 @@ class Dataset(BaseDataset):
             # Read raw concept data and append it
             for concept in self.concepts:
                 ds.add_concept(
-                    ID=concept['CONCEPTICON_ID'],
+                    ID='%s-%s' % (slug(concept['CONCEPTICON_GLOSS']), concept['CONCEPTICON_ID']),
                     Name=concept['ENGLISH'],
                     Concepticon_ID=concept['CONCEPTICON_ID'],
                     Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
                 )
             concept2id = {
-                c['ENGLISH'] : c['CONCEPTICON_ID'] for c in self.concepts
+                c['ENGLISH'] : '%s-%s' % (slug(c['CONCEPTICON_GLOSS']), c['CONCEPTICON_ID'])
+                for c in self.concepts
             }
 
             # Read raw languages and append it
             for language in self.languages:
                 ds.add_language(
-                    ID=language['ID'],
+                    ID=language['Name'],
                     Name=language['Name'],
                     Glottocode=language['Glottocode'],
                     Glottolog_Name=language['Glottolog_Name'],
                 )
-            lang2id = {
-                l['Name'] : l['ID'] for l in self.languages
-            }
 
             # iterate over the source adding lexemes and collecting cognates
             cognate_sets = []
@@ -90,7 +88,7 @@ class Dataset(BaseDataset):
                             cognate_id = cognate_sets.index(cognacy)
 
                         for row in ds.add_lexemes(
-                            Language_ID=lang2id[language],
+                            Language_ID=language,
                             Parameter_ID=concept2id[concept],
                             Form=form,
                             Value=ipa,
