@@ -1,8 +1,9 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "dc:bibliographicCitation": "",
+    "dc:bibliographicCitation": "Lieberherr, Ismail and Bodt, Timotheus Adrianus (2017): Sub-grouping Kho-Bwa based on shared core vocabulary. Himalayan Linguistics 16(2). 26-63. URL: https://escholarship.org/uc/item/4t27h5fg",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:identifier": "",
+    "dc:identifier": "https://doi.org/10.5281/zenodo.1154518",
+    "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:source": "sources.bib",
     "dc:title": "lieberherrkhobwa",
     "dcat:accessURL": "https://github.com/lexibank/lieberherrkhobwa",
@@ -15,14 +16,15 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.1-60-gf46bb64",
-                "concepticon_version": "pyconcepticon-1.4.0-39-g121e0c7"
+                "glottolog_version": "v3.3.2",
+                "concepticon_version": "pyconcepticon-1.4.0-51-g4845370"
             }
         }
     ],
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "dc:extent": 2130,
             "tableSchema": {
                 "columns": [
                     {
@@ -117,6 +119,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:extent": 22,
             "tableSchema": {
                 "columns": [
                     {
@@ -162,6 +165,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:extent": 100,
             "tableSchema": {
                 "columns": [
                     {
@@ -193,6 +197,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
+            "dc:extent": 2130,
             "tableSchema": {
                 "columns": [
                     {
