@@ -1,4 +1,11 @@
 Grapheme	IPA	EXAMPLES	LANGUAGES	FREQUENCY	CODEPOINTS
+³³	³³				
+³¹	³¹				
+¹¹	¹¹				
+⁵³	⁵³				
+⁵⁵	⁵⁵				
+ɔː	ɔː				
+tʂʰ	ʈʂʰ				
 ^uːə$	uːə				
 ^ua$	ua				
 ^ai$	ai				
@@ -6,6 +13,50 @@ Grapheme	IPA	EXAMPLES	LANGUAGES	FREQUENCY	CODEPOINTS
 $	NULL				
 +	NULL				
 +$	NULL				
+øː	øː				
+ɛʰ	ɛʰ/ɛ				
+ãː	ãː				
+ʂ	ʂ				
+ỹ	ỹ				
+ɛ̃ː	ɛ̃ː				
+aːʰ	aːʰ/aː				
+ĩ	ĩ				
+oᵘ	oᵘ/o				
+aⁱ	aⁱ/a				
+aᵘ	aᵘ/a				
+rᵘ	rᵘ/r				
+iⁱ	iⁱ/i				
+ī	iː				
+uᵉ	uᵉ/u				
+õᵘ	õᵘ/õ				
+ə̄	əː				
+ɛ:	ɛː				
+əː	əː				
+æ	æ				
+ɣ	ɣ				
+ɦ	ɦ				
+ʈ	ʈ				
+əʴ	əʴ/ə˞				
+ʑ	ʑ				
+aʴ	aʴ/a˞				
+eʴ	eʴ/e˞				
+æʳ	æʳ/æ˞				
+ȶ	ȶ				
+c	c				
+ɔʳ	ɔʳ/ɔ˞				
+ɟ	ɟ				
+oʳ	oʳ/o˞				
+aʳ	aʳ/a˞				
+ᵗ	t				
+ɯ	ɯ				
+ᵏ	k				
+ɬ	ɬ				
+əʳ	əʳ/ə˞				
+ç	ç				
+ˀ	ʔ				
+ɛʴ	ɛʴ/ɛ˞				
+⁵-⁵	⁵⁵				
+eʳ	eʳ/e˞				
 -	NULL	ʔa-rɛŋ, ba-kʰy	Khoina, Khoitam, Rahung, Rupa, Jerigaon, Shergaon, Khispi, Duhumbi, Bulu, Kojo Rojo, Rawa, Chayangtajo, Lasumpatte, Saria, Dikhyang	407	U+002d
 N	N/ɴ	ʃiN-rin, kətuNrin	Bulu	2	U+004e
 N$	N/ɴ	ahjɛN, dɛN	Bulu, Lasumpatte, Chayangtajo	23	U+004e U+0024
@@ -186,10 +237,10 @@ u$	u	gu, su	Shergaon, Duhumbi, Jerigaon, Khoina, Rupa, Khoitam, Dikhyang, Rahung
 ua	ua				
 ieː					
 ue	ue				
-uei	uei				
+uei	u ei				
 ui	ui				
 uə	uə				
-ẽeᵘ	ẽeᵘ				
+ẽeᵘ	ẽ eᵘ/e				
 uɛ	uɛ				
 uː	uː	ʨʰa-pʰruː_, ʨʰa-pʰluː_	Rahung, Jerigaon	2	U+0075 U+02d0
 uː$	uː	buː, ʨʰa-pʰluː	Bulu, Kojo Rojo, Shergaon, Chayangtajo, Lasumpatte, Khoina, Rupa, Khoitam	15	U+0075 U+02d0 U+0024

@@ -1,0 +1,36 @@
+{
+    "description": "<p>Original source of the data:</p>\n\n<blockquote>\n<p>Lieberherr and Bodt. Khowba.</p>\n</blockquote>", 
+    "license": "Apache-2.0", 
+    "title": "", 
+    "keywords": [
+    ], 
+    "grants": [
+        {
+            "id": "10.13039/501100000780::715618"
+        }
+    ], 
+    "upload_type": "dataset", 
+    "version": "v0.1", 
+    "communities": [
+        {
+            "identifier": "calc"
+        }, 
+        {
+            "identifier": "lexibank"
+        }
+    ], 
+    "publication_date": "2019-01-30", 
+    "creators": [
+        {
+            "affiliation": "Max Planck Institute for the Science of Human History", 
+            "name": "Tiago Tresoldi",
+            "ordic": "0000-0002-2863-1467"
+        },
+        {
+            "affiliation": "Max Planck Institute for the Science of Human History", 
+            "name": "Johann-Mattis List",
+            "orcid": "0000-0003-2133-8919"
+        }
+    ], 
+    "access_right": "open"
+}

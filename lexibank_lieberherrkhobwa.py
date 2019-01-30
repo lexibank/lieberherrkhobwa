@@ -1,69 +1,72 @@
 from __future__ import unicode_literals, print_function
+from collections import OrderedDict
 
 from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
-from csvw.dsv import iterrows
 from pylexibank.dataset import Dataset as BaseDataset
 
 from lingpy import *
-from segments.tokenizer import Tokenizer
+
+
+URL = "https://zenodo.org/api/files/5469d550-938a-4dae-b6d9-50e427f193b3/" \
+      "metroxylon/subgrouping-kho-bwa-v1.0.0.zip"
 
 class Dataset(BaseDataset):
     id = 'lieberherrkhobwa'
     dir = Path(__file__).parent
 
     def cmd_download(self, **kw):
-        pass
+        self.raw.download_and_unpack(
+            URL, "metroxylon-subgrouping-kho-bwa-333538b/data/dataset_khobwa.csv")
 
     def cmd_install(self, **kw):
 
-        # Add forms in the way suggested by Mattis' in his implementation
-        data = self.raw / 'data.tsv'
-        raw_data = csv2list(data, strip_lines=False)
-
-        # read the languages from the header
-        languages = [slug(lang) for lang in raw_data[0]]
+        data = self.raw.read_csv('dataset_khobwa.csv')
+        assert set(len(r) for r in data) == {201}
+        concept_by_index = OrderedDict()
+        for i in range(1, len(data[0]), 2):
+            concept_by_index[i] = data[0][i]
 
         with self.cldf as ds:
             ds.add_sources(*self.raw.read_bib())
 
             # Read raw concept data and append it
             for concept in self.concepts:
+                for i, gloss in list(concept_by_index.items()):
+                    if gloss == concept['ENGLISH']:
+                        concept_by_index[i] = concept['CONCEPTICON_ID']
+                        break
+                else:
+                    raise ValueError(concept['ENGLISH'])
+
                 ds.add_concept(
                     ID=concept['CONCEPTICON_ID'],
                     Name=concept['ENGLISH'],
                     Concepticon_ID=concept['CONCEPTICON_ID'],
                     Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
                 )
-            concept2id = {
-                c['ENGLISH'] : c['CONCEPTICON_ID'] for c in self.concepts
-            }
 
             # Read raw languages and append it
+            langs = {}
             for language in self.languages:
+                langs[language['Name']] = language['Source']
                 ds.add_language(
-                    ID=language['ID'],
+                    ID=language['Name'],
                     Name=language['Name'],
                     Glottocode=language['Glottocode'],
                     Glottolog_Name=language['Glottolog_Name'],
                 )
-            lang2id = {
-                l['Name'] : l['ID'] for l in self.languages
-            }
 
             # iterate over the source adding lexemes and collecting cognates
-            cognate_sets = []
-            for i in range(1, len(raw_data)-1, 2):
-                tmp = dict(zip(languages, raw_data[i]))
-                concept = raw_data[i][1]
-                number = raw_data[i][0]
-
-                for j, language in enumerate(languages[2:22]):
-                    cog = raw_data[i+1][j+2]
-                    form = tmp[language].strip()
-                    modify = {"N": "N/ɴ", "’": "+"}
-                    if form and form != 'NA':
+            modify = {"N": "N/ɴ", "’": "+"}
+            for row in data[2:]:
+                lid = slug(row[0])
+                if lid in langs:
+                    for cid in range(1, len(row), 2):
+                        form = row[cid]
+                        if not form or (form == 'NA'):
+                            continue
                         ipa = form
                         ipa = ipa.replace('- ', '-').replace(' ', '_')
                         ipa = strip_brackets(ipa).strip()
@@ -83,27 +86,25 @@ class Dataset(BaseDataset):
 
                             ipa = split_text(ipa, '~/~⪤,')[0]
                             tks = self.tokenizer(None, '^%s$' % ipa)
+                            tks = self.tokenizer(None, ipa, column='IPA')
 
                             # lingpy now requires this to be an integer
-                            cognacy = '%s-%s' % (slug(concept), cog)
-                            if cognacy not in cognate_sets:
-                                cognate_sets.append(cognacy)
-                            cognate_id = cognate_sets.index(cognacy)
+                            cognate_id = cid * 100 + int(row[cid + 1])
 
-                        for row in ds.add_lexemes(
-                            Language_ID=lang2id[language],
-                            Parameter_ID=concept2id[concept],
-                            Form=form,
-                            Value=ipa,
-                            Segments=tks,
-                            Cognacy=cognate_id,
-                        ):
-                            ds.add_cognate(
-                                lexeme=row,
-                                Cognateset_ID=cognate_id,
-                                Source='Lieberherr2017',
-                                Alignment_Source='List2014'
-                            )
+                            for lex in ds.add_lexemes(
+                                Language_ID=lid,
+                                Parameter_ID=concept_by_index[cid],
+                                Form=form,
+                                Value=ipa,
+                                Segments=tks,
+                                Cognacy=cognate_id,
+                                Source=[langs[lid]],
+                            ):
+                                ds.add_cognate(
+                                    lexeme=lex,
+                                    Cognateset_ID=cognate_id,
+                                    Source='Lieberherr2017',
+                                    Alignment_Source=''
+                                )
 
-            # align cognates
-            #ds.align_cognates()
+
