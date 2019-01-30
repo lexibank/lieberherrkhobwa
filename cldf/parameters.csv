@@ -1,101 +1,101 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss
-1sg_l2,1SG,,
-2sg_l4,2SG,,
-3sg_l6,3SG,,
-ant_l8,ant,,
-armhand_l10,arm/hand,,
-ash_l12,ash,,
-big_l14,big,,
-bird_l16,bird,,
-bite_l18,bite,,
-bitter_l20,bitter,,
-black_l22,black,,
-blood_l24,blood,,
-bone_l26,bone,,
-breast_l28,breast,,
-toburnit_l30,to burn (it.),,
-tocarryonback_l32,to carry (on back),,
-cloud_l34,cloud,,
-tocryweep_l36,to cry/weep,,
-todie_l38,to die,,
-todomake_l40,to do/make,,
-dog_l42,dog,,
-drink_l44,drink,,
-dry_l46,dry,,
-ear_l48,ear,,
-eat_l50,eat,,
-egg_l52,egg,,
-eye_l54,eye,,
-far_l56,far,,
-fat_l58,fat,,
-fingernail_l60,fingernail,,
-fire_l62,fire,,
-fish_l64,fish,,
-fleshmeat_l66,flesh/meat,,
-tofly_l68,to fly,,
-full_l70,full,,
-togive_l72,to give,,
-togo_l74,to go,,
-good_l76,good,,
-haironhead_l78,hair on head,,
-hard_l80,hard,,
-head_l82,head,,
-tohear_l84,to hear ,,
-heavy_l86,heavy,,
-tohide_l88,to hide,,
-tokill_l90,to kill,,
-horn_l92,horn,,
-house_l94,house,,
-in_l96,in,,
-knee_l98,knee,,
-toknow_l100,to know,,
-tolaugh_l102,to laugh,,
-leaf_l104,leaf,,
-legfoot_l106,leg/foot,,
-liver_l108,liver,,
-long_l110,long,,
-louse_l112,louse,,
-moon_l114,moon,,
-mouth_l116,mouth ,,
-name_l118,name,,
-navel_l120,navel,,
-neck_l122,neck,,
-new_l124,new,,
-nose_l126,nose,,
-not_l128,not,,
-oldofthings_l130,old of things,,
-one_l132,one,,
-path_l134,path,,
-rain_l136,rain,,
-red_l138,red,,
-root_l140,root,,
-torun_l142,to run,,
-salt_l144,salt,,
-sand_l146,sand,,
-tosay_l148,to say,,
-tosee_l150,to see,,
-tosit_l152,to sit,,
-skinhide_l154,skin/hide,,
-tosleep_l156,to sleep,,
-small_l158,small,,
-smoke_l160,smoke,,
-stand_l162,stand,,
-star_l164,star,,
-stonerock_l166,stone/rock,,
-sun_l168,sun,,
-sweet_l170,sweet,,
-tail_l172,tail,,
-totake_l174,to take,,
-thick_l176,thick,,
-this_l178,this,,
-tongue_l180,tongue,,
-tooth_l182,tooth,,
-water_l184,water,,
-what_l186,what?,,
-white_l188,white,,
-who_l190,who?,,
-wind_l192,wind,,
-wing_l194,wing,,
-woman_l196,woman,,
-wood_l198,wood,,
-yesterday_l200,yesterday,,
+1209,1SG,1209,I
+1215,2SG,1215,THOU
+2642,3SG,2642,HE OR SHE
+587,ant,587,ANT
+212,arm/hand,212,ARM OR HAND
+646,ash,646,ASH
+1202,big,1202,BIG
+937,bird,937,BIRD
+1403,bite,1403,BITE
+887,bitter,887,BITTER
+163,black,163,BLACK
+946,blood,946,BLOOD
+1394,bone,1394,BONE
+1402,breast,1402,BREAST
+1428,to burn (it.),1428,BURNING
+465,to carry (on back),465,CARRY ON BACK
+1489,cloud,1489,CLOUD
+1839,to cry/weep,1839,CRY
+1494,to die,1494,DIE
+2575,to do/make,2575,DO OR MAKE
+2009,dog,2009,DOG
+1401,drink,1401,DRINK
+1398,dry,1398,DRY
+1247,ear,1247,EAR
+1336,eat,1336,EAT
+744,egg,744,EGG
+1248,eye,1248,EYE
+1406,far,1406,FAR
+1688,fat,1688,FATE
+1258,fingernail,1258,FINGERNAIL
+221,fire,221,FIRE
+227,fish,227,FISH
+2615,flesh/meat,2615,FLESH OR MEAT
+1441,to fly,1441,FLY (MOVE THROUGH AIR)
+1429,full,1429,FULL
+1447,to give,1447,GIVE
+695,to go,695,GO
+1035,good,1035,GOOD
+2648,hair on head,2648,HAIR (HEAD)
+1884,hard,1884,HARD
+1256,head,1256,HEAD
+1408,to hear,1408,HEAR
+1210,heavy,1210,HEAVY
+2486,to hide,2486,HIDE
+1417,to kill,1417,KILL
+124,horn,124,THORN
+1252,house,1252,HOUSE
+1460,in,1460,IN
+1371,knee,1371,KNEE
+1410,to know,1410,KNOW (SOMETHING)
+1355,to laugh,1355,LAUGH
+628,leaf,628,LEAF
+2098,leg/foot,2098,FOOT OR LEG
+1224,liver,1224,LIVER
+1203,long,1203,LONG
+1392,louse,1392,LOUSE
+1313,moon,1313,MOON
+674,mouth,674,MOUTH
+1405,name,1405,NAME
+1838,navel,1838,NAVEL
+1333,neck,1333,NECK
+1231,new,1231,NEW
+1221,nose,1221,NOSE
+1240,not,1240,NOT
+2113,old of things,2113,OLD (USED)
+1493,one,1493,ONE
+2252,path,2252,PATH
+605,rain,605,GRAIN
+156,red,156,RED
+670,root,670,ROOT
+1519,to run,1519,RUN
+1274,salt,1274,SALT
+671,sand,671,SAND
+1458,to say,1458,SAY
+1409,to see,1409,SEE
+1416,to sit,1416,SIT
+763,skin/hide,763,SKIN
+1585,to sleep,1585,SLEEP
+1246,small,1246,SMALL
+778,smoke,778,SMOKE
+1442,stand,1442,STAND
+1430,star,1430,STAR
+2125,stone/rock,2125,STONE OR ROCK
+1343,sun,1343,SUN
+717,sweet,717,SWEET
+1220,tail,1220,TAIL
+1749,to take,1749,TAKE
+1244,thick,1244,THICK
+1214,this,1214,THIS
+1205,tongue,1205,TONGUE
+1380,tooth,1380,TOOTH
+948,water,948,WATER
+1236,what?,1236,WHAT
+1335,white,1335,WHITE
+1235,who?,1235,WHO
+960,wind,960,WIND
+1257,wing,1257,WING
+962,woman,962,WOMAN
+1803,wood,1803,WOOD
+1174,yesterday,1174,YESTERDAY

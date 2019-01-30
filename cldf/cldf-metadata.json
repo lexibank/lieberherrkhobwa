@@ -3,7 +3,9 @@
     "dc:bibliographicCitation": "",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:identifier": "",
+    "dc:source": "sources.bib",
     "dc:title": "lieberherrkhobwa",
+    "dcat:accessURL": "https://github.com/lexibank/lieberherrkhobwa",
     "rdf:ID": "lieberherrkhobwa",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -13,15 +15,14 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.1-114-g1caf32a790",
-                "concepticon_version": "pyconcepticon-1.4.0-51-g4845370"
+                "glottolog_version": "pyglottolog-1.2.1-60-gf46bb64",
+                "concepticon_version": "pyconcepticon-1.4.0-39-g121e0c7"
             }
         }
     ],
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 2990,
             "tableSchema": {
                 "columns": [
                     {
@@ -116,7 +117,6 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 29,
             "tableSchema": {
                 "columns": [
                     {
@@ -162,7 +162,6 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 100,
             "tableSchema": {
                 "columns": [
                     {
@@ -194,7 +193,6 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
-            "dc:extent": 0,
             "tableSchema": {
                 "columns": [
                     {
