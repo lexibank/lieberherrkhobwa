@@ -6,7 +6,6 @@
 | Segment | Occurrence | BIPA | CLTS SoundClass |
 |:----------|-------------:|:-------|:------------------|
 | a | 957 | ✓ | ✓ |
-| � | 768 | ? | ? |
 | ŋ | 421 | ✓ | ✓ |
 | i | 395 | ✓ | ✓ |
 | k | 343 | ✓ | ✓ |
@@ -21,7 +20,9 @@
 | b | 196 | ✓ | ✓ |
 | l | 193 | ✓ | ✓ |
 | p | 145 | ✓ | ✓ |
-| t | 135 | ✓ | ✓ |
+| � | 138 | ? | ? |
+| ³³ | 135 | ✓ | ✓ |
+| t | 134 | ✓ | ✓ |
 | ɛ | 133 | ✓ | ✓ |
 | kʰ | 127 | ✓ | ✓ |
 | pʰ | 119 | ✓ | ✓ |
@@ -32,6 +33,7 @@
 | g | 91 | ✓ | ✓ |
 | d | 81 | ✓ | ✓ |
 | tɕʰ | 75 | ✓ | ✓ |
+| ⁵⁵ | 71 | ✓ | ✓ |
 | y | 68 | ✓ | ✓ |
 | tʃ | 66 | ✓ | ✓ |
 | w | 66 | ✓ | ✓ |
@@ -43,6 +45,8 @@
 | tʰ | 60 | ✓ | ✓ |
 | iː | 58 | ✓ | ✓ |
 | ai | 55 | ✓ | ✓ |
+| ⁵³ | 55 | ✓ | ✓ |
+| ³¹ | 48 | ✓ | ✓ |
 | dʑ | 45 | ✓ | ✓ |
 | ei | 43 | ✓ | ✓ |
 | ɲ | 37 | ✓ | ✓ |
@@ -87,6 +91,7 @@
 | uə | 6 | ✓ | ✓ |
 | ã | 6 | ✓ | ✓ |
 | ʒ | 6 | ✓ | ✓ |
+| ¹¹ | 5 | ✓ | ✓ |
 | ãː | 5 | ✓ | ✓ |
 | ý/y | 5 | ✓ | ✓ |
 | ɛ̃ | 5 | ✓ | ✓ |
@@ -141,10 +146,11 @@
 | ə̄/ə | 1 | ✓ | ✓ |
 | ə̌/ə | 1 | ✓ | ✓ |
 | ɛĩ | 1 | ✓ | ✓ |
+| ʈʂʰ | 1 | ✓ | ✓ |
 | ẽeᵘ/ẽu | 1 | ✓ | ✓ |
 | ỹ | 1 | ✓ | ✓ |
 
-(138 rows)
+(144 rows)
 
 
 
@@ -160,7 +166,7 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|:-----------------|:-----------|----------:|:--------------|:-------------------------------------------------------------------------------|
+|:-----------------|:-----------|----------:|:---------------------|:--------------------------------------------------------------------|
 | bichom-1210-1 | bichom | 1210 | laⁱ | l <s> aⁱ </s> |
 | bichom-1343-1 | bichom | 1343 | ha-naⁱ | h a n <s> aⁱ </s> |
 | bichom-163-1 | bichom | 163 | e-saⁱ | e s <s> aⁱ </s> |
@@ -172,9 +178,36 @@
 | kaspi-946-1 | kaspi | 946 | nə-faⁱ | n ə f <s> aⁱ </s> |
 | khoina-124-1 | khoina | 124 | tʂʰajŋ | t <s> � </s> <s> � </s> a j ŋ |
 | khoina-1442-1 | khoina | 1442 | tʂʰĩː | t <s> � </s> <s> � </s> ĩː |
-| khoina-163-1 | khoina | 163 | a-tʂʰũː | a t <s> � </s> <s> � </s> ũː |
 | khoina-1839-1 | khoina | 1839 | tʂʰe | t <s> � </s> <s> � </s> e |
 | khoitam-1220-1 | khoitam | 1220 | a-nɛʰ | a n <s> ɛʰ </s> |
+| lidaqin-1247-1 | lidaqin | 1247 | mɯ³¹-kui⁵³ | m <s> � </s> ³¹ k ui ⁵³ |
+| lidaqin-1248-1 | lidaqin | 1248 | a³¹-gɯᵏ⁵⁵ | a ³¹ g <s> � </s> <s> � </s> ⁵⁵ |
+| lidaqin-1252-1 | lidaqin | 1252 | ʨauᵏ⁵³ | tɕ au <s> � </s> ⁵³ |
+| lidaqin-1258-1 | lidaqin | 1258 | giᵗ³³-ɕiᵗ⁵³ | g i <s> � </s> ³³ ɕ i <s> � </s> ⁵³ |
+| lidaqin-1355-1 | lidaqin | 1355 | ɣue⁵⁵ | <s> � </s> ue ⁵⁵ |
+| lidaqin-1398-1 | lidaqin | 1398 | a³¹-vaʳᵗ⁵⁵ | a ³¹ v a <s> � </s> <s> � </s> ⁵⁵ |
+| lidaqin-1401-1 | lidaqin | 1401 | ɣliŋ⁵⁵ | <s> � </s> l i ŋ ⁵⁵ |
+| lidaqin-1406-1 | lidaqin | 1406 | a³¹-cie⁵⁵ | a ³¹ <s> � </s> ie ⁵⁵ |
+| lidaqin-1408-1 | lidaqin | 1408 | ɣaŋ⁵⁵ | <s> � </s> a ŋ ⁵⁵ |
+| lidaqin-1410-1 | lidaqin | 1410 | daᵗ⁵⁵ | d a <s> � </s> ⁵⁵ |
+| lidaqin-1417-1 | lidaqin | 1417 | waʳᵗ⁵⁵ | w a <s> � </s> <s> � </s> ⁵⁵ |
+| lidaqin-1489-1 | lidaqin | 1489 | kə³¹-tɯ⁵⁵ | k ə ³¹ t <s> � </s> ⁵⁵ |
+| lidaqin-163-1 | lidaqin | 163 | a³³-ɦam⁵⁵ | a ³³ <s> � </s> a m ⁵⁵ |
+| lidaqin-1688-1 | lidaqin | 1688 | mɯ³¹-ʑua⁵⁵ | m <s> � </s> ³¹ <s> � </s> ua ⁵⁵ |
+| lidaqin-1839-1 | lidaqin | 1839 | ciaᵏ⁵³ | <s> � </s> ia <s> � </s> ⁵³ |
+| lidaqin-2098-1 | lidaqin | 2098 | a³¹-ʦæ⁵³ | a ³¹ ts <s> � </s> ⁵³ |
+| lidaqin-212-1 | lidaqin | 212 | giᵗ⁵⁵ | g i <s> � </s> ⁵⁵ |
+| lidaqin-221-1 | lidaqin | 221 | bæ⁵⁵ | b <s> � </s> ⁵⁵ |
+| lidaqin-2486-1 | lidaqin | 2486 | ʣa³³-ɣə⁵³-doŋ⁵-⁵ɣə⁵³ | dz a ³³ <s> � </s> ə ⁵³ d o ŋ <s> � </s> <s> � </s> <s> � </s> ə ⁵³ |
+| lidaqin-2575-1 | lidaqin | 2575 | kaᵗ⁵⁵ | k a <s> � </s> ⁵⁵ |
+| lidaqin-2615-1 | lidaqin | 2615 | mɯ³¹-ɬiᵏ⁵⁵ | m <s> � </s> ³¹ <s> � </s> i <s> � </s> ⁵⁵ |
+| lidaqin-2642-1 | lidaqin | 2642 | vaʳ⁵⁵ | v a <s> � </s> ⁵⁵ |
+| lidaqin-2648-1 | lidaqin | 2648 | kau³¹-ʑiaᵏ⁵⁵ | k au ³¹ <s> � </s> ia <s> � </s> ⁵⁵ |
+| lidaqin-587-1 | lidaqin | 587 | gran³¹-koʳ⁵³ | g r a n ³¹ k o <s> � </s> ⁵³ |
+| lidaqin-628-1 | lidaqin | 628 | a³¹-lɯᵏ⁵³ | a ³¹ l <s> � </s> <s> � </s> ⁵³ |
+| lidaqin-646-1 | lidaqin | 646 | bæ³³-ɣəh⁵³ | b <s> � </s> ³³ <s> � </s> ə h ⁵³ |
+| lidaqin-744-1 | lidaqin | 744 | mɯ³¹-ɬi⁵⁵ | m <s> � </s> ³¹ <s> � </s> i ⁵⁵ |
+| lidaqin-937-1 | lidaqin | 937 | pɯ³¹-tu⁵⁵ | p <s> � </s> ³¹ t u ⁵⁵ |
 | namphri-1210-1 | namphri | 1210 | e-laⁱ | e l <s> aⁱ </s> |
 | namphri-1343-1 | namphri | 1343 | ha-naⁱ | h a n <s> aⁱ </s> |
 | namphri-2098-1 | namphri | 2098 | laⁱ | l <s> aⁱ </s> |
@@ -190,77 +223,50 @@
 | wangho-1210-1 | wangho | 1210 | e-laⁱ | e l <s> aⁱ </s> |
 | wangho-163-1 | wangho | 163 | e-saⁱ | e s <s> aⁱ </s> |
 | wangho-2009-1 | wangho | 2009 | ʧaⁱ | tʃ <s> aⁱ </s> |
-| zmyyc-1035-1 | zmyyc | 1035 | a³³-niaŋ¹¹ | a <s> � </s> <s> � </s> n ia ŋ <s> � </s> <s> � </s> |
-| zmyyc-1202-1 | zmyyc | 1202 | a³³-bua³³ | a <s> � </s> <s> � </s> b ua <s> � </s> <s> � </s> |
-| zmyyc-1203-1 | zmyyc | 1203 | a³³-pɹaŋ⁵³ | a <s> � </s> <s> � </s> p ɹ a ŋ <s> � </s> <s> � </s> |
-| zmyyc-1209-1 | zmyyc | 1209 | goh⁵³ | g o h <s> � </s> <s> � </s> |
-| zmyyc-1210-1 | zmyyc | 1210 | a³³-lei³³ | a <s> � </s> <s> � </s> l ei <s> � </s> <s> � </s> |
-| zmyyc-1215-1 | zmyyc | 1215 | nah⁵³ | n a h <s> � </s> <s> � </s> |
-| zmyyc-1221-1 | zmyyc | 1221 | pɔk³³ | p ɔ k <s> � </s> <s> � </s> |
-| zmyyc-1224-1 | zmyyc | 1224 | a³³-pie⁵³ | a <s> � </s> <s> � </s> p ie <s> � </s> <s> � </s> |
-| zmyyc-1231-1 | zmyyc | 1231 | a³³-faʈ³³ | a <s> � </s> <s> � </s> f a <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-124-1 | zmyyc | 124 | a³³-kə-vuaŋ³³ | a <s> � </s> <s> � </s> k ə v ua ŋ <s> � </s> <s> � </s> |
-| zmyyc-1240-1 | zmyyc | 1240 | ba³³- | b a <s> � </s> <s> � </s> |
-| zmyyc-1247-1 | zmyyc | 1247 | a³³-kuʈ³³ | a <s> � </s> <s> � </s> k u <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-1248-1 | zmyyc | 1248 | kək³³ | k ə k <s> � </s> <s> � </s> |
-| zmyyc-1252-1 | zmyyc | 1252 | ʨok³³ | tɕ o k <s> � </s> <s> � </s> |
-| zmyyc-1256-1 | zmyyc | 1256 | ko⁵³ | k o <s> � </s> <s> � </s> |
-| zmyyc-1258-1 | zmyyc | 1258 | geʈ³³-ɕit³³ | g e <s> � </s> <s> � </s> <s> � </s> ɕ i t <s> � </s> <s> � </s> |
-| zmyyc-1274-1 | zmyyc | 1274 | hɔŋ³³ | h ɔ ŋ <s> � </s> <s> � </s> |
-| zmyyc-1313-1 | zmyyc | 1313 | aŋ³³-bo³³ | a ŋ <s> � </s> <s> � </s> b o <s> � </s> <s> � </s> |
-| zmyyc-1333-1 | zmyyc | 1333 | kə³³-tuoŋ³³ | k ə <s> � </s> <s> � </s> t u o ŋ <s> � </s> <s> � </s> |
-| zmyyc-1336-1 | zmyyc | 1336 | ʨih⁵³ | tɕ i h <s> � </s> <s> � </s> |
-| zmyyc-1355-1 | zmyyc | 1355 | ɣuɛ³³ | <s> � </s> uɛ <s> � </s> <s> � </s> |
-| zmyyc-1392-1 | zmyyc | 1392 | pə³³ɣæ⁵³ | p ə <s> � </s> <s> � </s> <s> � </s> <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-1398-1 | zmyyc | 1398 | a³³-vəʴʈ³³ | a <s> � </s> <s> � </s> v ə <s> � </s> <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-1401-1 | zmyyc | 1401 | rin³³ | r i n <s> � </s> <s> � </s> |
-| zmyyc-1402-1 | zmyyc | 1402 | a³³-niɛ¹¹ | a <s> � </s> <s> � </s> n iɛ <s> � </s> <s> � </s> |
-| zmyyc-1403-1 | zmyyc | 1403 | tua⁵³ | t ua <s> � </s> <s> � </s> |
-| zmyyc-1405-1 | zmyyc | 1405 | a³³-bɛʴŋ³³ | a <s> � </s> <s> � </s> b ɛ <s> � </s> ŋ <s> � </s> <s> � </s> |
-| zmyyc-1406-1 | zmyyc | 1406 | a³³-ciɛ³³ | a <s> � </s> <s> � </s> <s> � </s> iɛ <s> � </s> <s> � </s> |
+| zmyyc-1231-1 | zmyyc | 1231 | a³³-faʈ³³ | a ³³ f a <s> � </s> ³³ |
+| zmyyc-1236-1 | zmyyc | 1236 | hi⁵³ɟeh⁵³ | h i ⁵³ <s> � </s> e h ⁵³ |
+| zmyyc-1244-1 | zmyyc | 1244 | a³³-piʈ³³ | a ³³ p i <s> � </s> ³³ |
+| zmyyc-1246-1 | zmyyc | 1246 | ciaŋ³³ | <s> � </s> ia ŋ ³³ |
+| zmyyc-1247-1 | zmyyc | 1247 | a³³-kuʈ³³ | a ³³ k u <s> � </s> ³³ |
+| zmyyc-1257-1 | zmyyc | 1257 | a³³-juʈ³³ | a ³³ j u <s> � </s> ³³ |
+| zmyyc-1258-1 | zmyyc | 1258 | geʈ³³-ɕit³³ | g e <s> � </s> ³³ ɕ i t ³³ |
+| zmyyc-1355-1 | zmyyc | 1355 | ɣuɛ³³ | <s> � </s> uɛ ³³ |
+| zmyyc-1392-1 | zmyyc | 1392 | pə³³ɣæ⁵³ | p ə ³³ <s> � </s> <s> � </s> ⁵³ |
+| zmyyc-1398-1 | zmyyc | 1398 | a³³-vəʴʈ³³ | a ³³ v ə <s> � </s> <s> � </s> ³³ |
+| zmyyc-1405-1 | zmyyc | 1405 | a³³-bɛʴŋ³³ | a ³³ b ɛ <s> � </s> ŋ ³³ |
+| zmyyc-1406-1 | zmyyc | 1406 | a³³-ciɛ³³ | a ³³ <s> � </s> iɛ ³³ |
 | zmyyc-1408-1 | zmyyc | 1408 | ɣɔŋ | <s> � </s> ɔ ŋ |
-| zmyyc-1409-1 | zmyyc | 1409 | ŋua³³ | ŋ ua <s> � </s> <s> � </s> |
-| zmyyc-1410-1 | zmyyc | 1410 | daʈ³³ | d a <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-1417-1 | zmyyc | 1417 | waʴt³³ | w a <s> � </s> t <s> � </s> <s> � </s> |
-| zmyyc-1429-1 | zmyyc | 1429 | liɛ³³ | l iɛ <s> � </s> <s> � </s> |
-| zmyyc-1441-1 | zmyyc | 1441 | pie³³ | p ie <s> � </s> <s> � </s> |
-| zmyyc-1447-1 | zmyyc | 1447 | taŋ³³ | t a ŋ <s> � </s> <s> � </s> |
-| zmyyc-1458-1 | zmyyc | 1458 | luȶ⁵³ | l u <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-1460-1 | zmyyc | 1460 | a³³-ɹaŋ⁵³ | a <s> � </s> <s> � </s> ɹ a ŋ <s> � </s> <s> � </s> |
-| zmyyc-1489-1 | zmyyc | 1489 | kə³³-tɯ³³ | k ə <s> � </s> <s> � </s> t <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-1493-1 | zmyyc | 1493 | ɦui³³ | <s> � </s> ui <s> � </s> <s> � </s> |
-| zmyyc-1494-1 | zmyyc | 1494 | ji³³ | j i <s> � </s> <s> � </s> |
-| zmyyc-1519-1 | zmyyc | 1519 | riʈ³³ | r i <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-156-1 | zmyyc | 156 | a³³-jiʈ³³ | a <s> � </s> <s> � </s> j i <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-163-1 | zmyyc | 163 | a³³-ɦiɛ⁵³ | a <s> � </s> <s> � </s> <s> � </s> iɛ <s> � </s> <s> � </s> |
-| zmyyc-1688-1 | zmyyc | 1688 | a³³-ʑua¹¹ | a <s> � </s> <s> � </s> <s> � </s> ua <s> � </s> <s> � </s> |
-| zmyyc-1839-1 | zmyyc | 1839 | ciak⁵³ | <s> � </s> ia k <s> � </s> <s> � </s> |
-| zmyyc-1884-1 | zmyyc | 1884 | a³³-siet³³ | a <s> � </s> <s> � </s> s ie t <s> � </s> <s> � </s> |
-| zmyyc-2009-1 | zmyyc | 2009 | boh⁵³ | b o h <s> � </s> <s> � </s> |
-| zmyyc-2098-1 | zmyyc | 2098 | læ³³ | l <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-2113-1 | zmyyc | 2113 | a³³-ʨɛt³³ | a <s> � </s> <s> � </s> tɕ ɛ t <s> � </s> <s> � </s> |
-| zmyyc-212-1 | zmyyc | 212 | geʈ³³ | g e <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-221-1 | zmyyc | 221 | bæ³³ | b <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-2252-1 | zmyyc | 2252 | pə³³zuɛ³³ | p ə <s> � </s> <s> � </s> z uɛ <s> � </s> <s> � </s> |
-| zmyyc-227-1 | zmyyc | 227 | ka³³fuaŋ⁵³ | k a <s> � </s> <s> � </s> f ua ŋ <s> � </s> <s> � </s> |
-| zmyyc-2486-1 | zmyyc | 2486 | ɣɯ³³-ɣə⁵³ | <s> � </s> <s> � </s> <s> � </s> <s> � </s> <s> � </s> ə <s> � </s> <s> � </s> |
-| zmyyc-2575-1 | zmyyc | 2575 | kaʈ³³ | k a <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-2615-1 | zmyyc | 2615 | mə³³-ri³³ | m ə <s> � </s> <s> � </s> r i <s> � </s> <s> � </s> |
-| zmyyc-2642-1 | zmyyc | 2642 | væ³³ | v <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-2648-1 | zmyyc | 2648 | kə³³-ʑak³³ | k ə <s> � </s> <s> � </s> <s> � </s> a k <s> � </s> <s> � </s> |
-| zmyyc-465-1 | zmyyc | 465 | ɣəȶ³³ | <s> � </s> ə <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-587-1 | zmyyc | 587 | gɹɛn³³-gɹo⁵³ | g ɹ ɛ n <s> � </s> <s> � </s> g ɹ o <s> � </s> <s> � </s> |
-| zmyyc-605-1 | zmyyc | 605 | aŋ³³-pru⁵³ | a ŋ <s> � </s> <s> � </s> p r u <s> � </s> <s> � </s> |
-| zmyyc-628-1 | zmyyc | 628 | heʴn³³-lɯk³³ | h e <s> � </s> n <s> � </s> <s> � </s> l <s> � </s> k <s> � </s> <s> � </s> |
-| zmyyc-646-1 | zmyyc | 646 | bæ³³-ɣək³³ | b <s> � </s> <s> � </s> <s> � </s> <s> � </s> ə k <s> � </s> <s> � </s> |
-| zmyyc-670-1 | zmyyc | 670 | heʴn³³-kuŋ³³ | h e <s> � </s> n <s> � </s> <s> � </s> k u ŋ <s> � </s> <s> � </s> |
-| zmyyc-671-1 | zmyyc | 671 | pɹæʳ³³-ʦət³³ | p ɹ <s> � </s> <s> � </s> <s> � </s> <s> � </s> ts ə t <s> � </s> <s> � </s> |
-| zmyyc-674-1 | zmyyc | 674 | mə³³luʈ³³ | m ə <s> � </s> <s> � </s> l u <s> � </s> <s> � </s> <s> � </s> |
-| zmyyc-695-1 | zmyyc | 695 | u³³ | u <s> � </s> <s> � </s> |
-| zmyyc-744-1 | zmyyc | 744 | mə³³-ri³³ | m ə <s> � </s> <s> � </s> r i <s> � </s> <s> � </s> |
-| zmyyc-887-1 | zmyyc | 887 | a³³-bio⁵³ | a <s> � </s> <s> � </s> b i o <s> � </s> <s> � </s> |
-| zmyyc-937-1 | zmyyc | 937 | pə³³-tu³³ | p ə <s> � </s> <s> � </s> t u <s> � </s> <s> � </s> |
-| zmyyc-946-1 | zmyyc | 946 | hue⁵³ | h ue <s> � </s> <s> � </s> |
+| zmyyc-1410-1 | zmyyc | 1410 | daʈ³³ | d a <s> � </s> ³³ |
+| zmyyc-1417-1 | zmyyc | 1417 | waʴt³³ | w a <s> � </s> t ³³ |
+| zmyyc-1430-1 | zmyyc | 1430 | ha³³-ɣat⁵³ | h a ³³ <s> � </s> a t ⁵³ |
+| zmyyc-1442-1 | zmyyc | 1442 | cin³³-pua¹¹ | <s> � </s> i n ³³ p ua ¹¹ |
+| zmyyc-1458-1 | zmyyc | 1458 | luȶ⁵³ | l u <s> � </s> ⁵³ |
+| zmyyc-1489-1 | zmyyc | 1489 | kə³³-tɯ³³ | k ə ³³ t <s> � </s> ³³ |
+| zmyyc-1493-1 | zmyyc | 1493 | ɦui³³ | <s> � </s> ui ³³ |
+| zmyyc-1519-1 | zmyyc | 1519 | riʈ³³ | r i <s> � </s> ³³ |
+| zmyyc-156-1 | zmyyc | 156 | a³³-jiʈ³³ | a ³³ j i <s> � </s> ³³ |
+| zmyyc-1585-1 | zmyyc | 1585 | ɣəŋ³³ | <s> � </s> ə ŋ ³³ |
+| zmyyc-163-1 | zmyyc | 163 | a³³-ɦiɛ⁵³ | a ³³ <s> � </s> iɛ ⁵³ |
+| zmyyc-1688-1 | zmyyc | 1688 | a³³-ʑua¹¹ | a ³³ <s> � </s> ua ¹¹ |
+| zmyyc-1749-1 | zmyyc | 1749 | ɣei³³ | <s> � </s> ei ³³ |
+| zmyyc-1803-1 | zmyyc | 1803 | heʴn³³ | h e <s> � </s> n ³³ |
+| zmyyc-1839-1 | zmyyc | 1839 | ciak⁵³ | <s> � </s> ia k ⁵³ |
+| zmyyc-2098-1 | zmyyc | 2098 | læ³³ | l <s> � </s> ³³ |
+| zmyyc-212-1 | zmyyc | 212 | geʈ³³ | g e <s> � </s> ³³ |
+| zmyyc-2125-1 | zmyyc | 2125 | kə³³-pɔʳ³³ | k ə ³³ p ɔ <s> � </s> ³³ |
+| zmyyc-221-1 | zmyyc | 221 | bæ³³ | b <s> � </s> ³³ |
+| zmyyc-2486-1 | zmyyc | 2486 | ɣɯ³³-ɣə⁵³ | <s> � </s> <s> � </s> ³³ <s> � </s> ə ⁵³ |
+| zmyyc-2575-1 | zmyyc | 2575 | kaʈ³³ | k a <s> � </s> ³³ |
+| zmyyc-2642-1 | zmyyc | 2642 | væ³³ | v <s> � </s> ³³ |
+| zmyyc-2648-1 | zmyyc | 2648 | kə³³-ʑak³³ | k ə ³³ <s> � </s> a k ³³ |
+| zmyyc-465-1 | zmyyc | 465 | ɣəȶ³³ | <s> � </s> ə <s> � </s> ³³ |
+| zmyyc-628-1 | zmyyc | 628 | heʴn³³-lɯk³³ | h e <s> � </s> n ³³ l <s> � </s> k ³³ |
+| zmyyc-646-1 | zmyyc | 646 | bæ³³-ɣək³³ | b <s> � </s> ³³ <s> � </s> ə k ³³ |
+| zmyyc-670-1 | zmyyc | 670 | heʴn³³-kuŋ³³ | h e <s> � </s> n ³³ k u ŋ ³³ |
+| zmyyc-671-1 | zmyyc | 671 | pɹæʳ³³-ʦət³³ | p ɹ <s> � </s> <s> � </s> ³³ ts ə t ³³ |
+| zmyyc-674-1 | zmyyc | 674 | mə³³luʈ³³ | m ə ³³ l u <s> � </s> ³³ |
+| zmyyc-778-1 | zmyyc | 778 | bæ³³-kɯ³³ | b <s> � </s> ³³ k <s> � </s> ³³ |
+| zmyyc-960-1 | zmyyc | 960 | aŋ³³-huʈ⁵³ | a ŋ ³³ h u <s> � </s> ⁵³ |
 
 (100 rows)
 

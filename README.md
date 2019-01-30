@@ -14,7 +14,7 @@ Available online at https://doi.org/10.5281/zenodo.1154518
 [![Build Status](https://travis-ci.org/lexibank/lieberherrkhobwa.svg?branch=master)](https://travis-ci.org/lexibank/lieberherrkhobwa)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
-![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
+![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 97%](https://img.shields.io/badge/BIPA-97%25-green.svg "BIPA: 97%")
 ![CLTS SoundClass: 97%](https://img.shields.io/badge/CLTS%20SoundClass-97%25-green.svg "CLTS SoundClass: 97%")
 
@@ -24,12 +24,6 @@ Available online at https://doi.org/10.5281/zenodo.1154518
 - **Synonymy:** 1.00
 - **Cognacy:** 2,063 cognates in 243 cognate sets
 - **Invalid lexemes:** 0
-- **Tokens:** 8,260
-- **Segments:** 138 (4 BIPA errors, 4 CTLS sound class errors, 134 CLTS modified)
-- **Inventory size (avg):** 46.91
-
-## Possible Improvements:
-
-
-
-- Entries missing sources: 2130/2130 (100.00%)
+- **Tokens:** 7,944
+- **Segments:** 144 (4 BIPA errors, 4 CTLS sound class errors, 140 CLTS modified)
+- **Inventory size (avg):** 47.32

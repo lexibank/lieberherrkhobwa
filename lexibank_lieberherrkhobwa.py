@@ -47,9 +47,9 @@ class Dataset(BaseDataset):
                 )
 
             # Read raw languages and append it
-            langs = []
+            langs = {}
             for language in self.languages:
-                langs.append(language['Name'])
+                langs[language['Name']] = language['Source']
                 ds.add_language(
                     ID=language['Name'],
                     Name=language['Name'],
@@ -96,6 +96,7 @@ class Dataset(BaseDataset):
                                 Value=ipa,
                                 Segments=tks,
                                 Cognacy=cognate_id,
+                                Source=[langs[lid]],
                             ):
                                 ds.add_cognate(
                                     lexeme=lex,
