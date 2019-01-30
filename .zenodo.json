@@ -1,7 +1,7 @@
 {
     "description": "<p>Original source of the data:</p>\n\n<blockquote>\n<p>Lieberherr and Bodt. Khowba.</p>\n</blockquote>", 
     "license": "Apache-2.0", 
-    "title": "", 
+    "title": "Sub-grouping Kho-Bwa based on shared core vocabulary", 
     "keywords": [
     ], 
     "grants": [
@@ -24,7 +24,7 @@
         {
             "affiliation": "Max Planck Institute for the Science of Human History", 
             "name": "Tiago Tresoldi",
-            "ordic": "0000-0002-2863-1467"
+            "orcid": "0000-0002-2863-1467"
         },
         {
             "affiliation": "Max Planck Institute for the Science of Human History", 
