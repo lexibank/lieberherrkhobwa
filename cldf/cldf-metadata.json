@@ -30,7 +30,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 2130,
+            "dc:extent": 2132,
             "tableSchema": {
                 "columns": [
                     {
@@ -223,7 +223,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
-            "dc:extent": 2130,
+            "dc:extent": 2132,
             "tableSchema": {
                 "columns": [
                     {

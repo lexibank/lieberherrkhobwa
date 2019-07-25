@@ -86,8 +86,8 @@ class Dataset(BaseDataset):
                             for lex in ds.add_lexemes(
                                 Language_ID=lid,
                                 Parameter_ID=concept_by_index[cid],
-                                Form=form,
-                                Value=ipa,
+                                Form=ipa,
+                                Value=form,
                                 Cognacy=cognate_id,
                                 Source=[langs[lid]],
                             ):
