@@ -1,101 +1,101 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss
-1209,1SG,1209,I
-1215,2SG,1215,THOU
-2642,3SG,2642,HE OR SHE
-587,ant,587,ANT
-212,arm/hand,212,ARM OR HAND
-646,ash,646,ASH
-1202,big,1202,BIG
-937,bird,937,BIRD
-1403,bite,1403,BITE
-887,bitter,887,BITTER
-163,black,163,BLACK
-946,blood,946,BLOOD
-1394,bone,1394,BONE
-1402,breast,1402,BREAST
-1428,to burn (it.),1428,BURNING
-465,to carry (on back),465,CARRY ON BACK
-1489,cloud,1489,CLOUD
-1839,to cry/weep,1839,CRY
-1494,to die,1494,DIE
-2575,to do/make,2575,DO OR MAKE
-2009,dog,2009,DOG
-1401,drink,1401,DRINK
-1398,dry,1398,DRY
-1247,ear,1247,EAR
-1336,eat,1336,EAT
-744,egg,744,EGG
-1248,eye,1248,EYE
-1406,far,1406,FAR
-1688,fat,1688,FATE
-1258,fingernail,1258,FINGERNAIL
-221,fire,221,FIRE
-227,fish,227,FISH
-2615,flesh/meat,2615,FLESH OR MEAT
-1441,to fly,1441,FLY (MOVE THROUGH AIR)
-1429,full,1429,FULL
-1447,to give,1447,GIVE
-695,to go,695,GO
-1035,good,1035,GOOD
-2648,hair on head,2648,HAIR (HEAD)
-1884,hard,1884,HARD
-1256,head,1256,HEAD
-1408,to hear,1408,HEAR
-1210,heavy,1210,HEAVY
-2486,to hide,2486,HIDE
-1417,to kill,1417,KILL
-124,horn,124,THORN
-1252,house,1252,HOUSE
-1460,in,1460,IN
-1371,knee,1371,KNEE
-1410,to know,1410,KNOW (SOMETHING)
-1355,to laugh,1355,LAUGH
-628,leaf,628,LEAF
-2098,leg/foot,2098,FOOT OR LEG
-1224,liver,1224,LIVER
-1203,long,1203,LONG
-1392,louse,1392,LOUSE
-1313,moon,1313,MOON
-674,mouth,674,MOUTH
-1405,name,1405,NAME
-1838,navel,1838,NAVEL
-1333,neck,1333,NECK
-1231,new,1231,NEW
-1221,nose,1221,NOSE
-1240,not,1240,NOT
-2113,old of things,2113,OLD (USED)
-1493,one,1493,ONE
-2252,path,2252,PATH
-605,rain,605,GRAIN
-156,red,156,RED
-670,root,670,ROOT
-1519,to run,1519,RUN
-1274,salt,1274,SALT
-671,sand,671,SAND
-1458,to say,1458,SAY
-1409,to see,1409,SEE
-1416,to sit,1416,SIT
-763,skin/hide,763,SKIN
-1585,to sleep,1585,SLEEP
-1246,small,1246,SMALL
-778,smoke,778,SMOKE
-1442,stand,1442,STAND
-1430,star,1430,STAR
-2125,stone/rock,2125,STONE OR ROCK
-1343,sun,1343,SUN
-717,sweet,717,SWEET
-1220,tail,1220,TAIL
-1749,to take,1749,TAKE
-1244,thick,1244,THICK
-1214,this,1214,THIS
-1205,tongue,1205,TONGUE
-1380,tooth,1380,TOOTH
-948,water,948,WATER
-1236,what?,1236,WHAT
-1335,white,1335,WHITE
-1235,who?,1235,WHO
-960,wind,960,WIND
-1257,wing,1257,WING
-962,woman,962,WOMAN
-1803,wood,1803,WOOD
-1174,yesterday,1174,YESTERDAY
+Lieberherr-2017-100-1,1SG,1209,I
+Lieberherr-2017-100-2,2SG,1215,THOU
+Lieberherr-2017-100-3,3SG,2642,HE OR SHE
+Lieberherr-2017-100-4,ant,587,ANT
+Lieberherr-2017-100-5,arm/hand,2121,ARM OR HAND
+Lieberherr-2017-100-6,ash,646,ASH
+Lieberherr-2017-100-7,big,1202,BIG
+Lieberherr-2017-100-8,bird,937,BIRD
+Lieberherr-2017-100-9,bite,1403,BITE
+Lieberherr-2017-100-10,bitter,887,BITTER
+Lieberherr-2017-100-11,black,163,BLACK
+Lieberherr-2017-100-12,blood,946,BLOOD
+Lieberherr-2017-100-13,bone,1394,BONE
+Lieberherr-2017-100-14,breast,1402,BREAST
+Lieberherr-2017-100-15,to burn (it.),1428,BURNING
+Lieberherr-2017-100-16,to carry (on back),465,CARRY ON BACK
+Lieberherr-2017-100-17,cloud,1489,CLOUD
+Lieberherr-2017-100-18,to cry/weep,1839,CRY
+Lieberherr-2017-100-19,to die,1494,DIE
+Lieberherr-2017-100-20,to do/make,2575,DO OR MAKE
+Lieberherr-2017-100-21,dog,2009,DOG
+Lieberherr-2017-100-22,drink,1401,DRINK
+Lieberherr-2017-100-23,dry,1398,DRY
+Lieberherr-2017-100-24,ear,1247,EAR
+Lieberherr-2017-100-25,eat,1336,EAT
+Lieberherr-2017-100-26,egg,744,EGG
+Lieberherr-2017-100-27,eye,1248,EYE
+Lieberherr-2017-100-28,far,1406,FAR
+Lieberherr-2017-100-29,fat,1688,FATE
+Lieberherr-2017-100-30,fingernail,1258,FINGERNAIL
+Lieberherr-2017-100-31,fire,221,FIRE
+Lieberherr-2017-100-32,fish,227,FISH
+Lieberherr-2017-100-33,flesh/meat,2615,FLESH OR MEAT
+Lieberherr-2017-100-34,to fly,1441,FLY (MOVE THROUGH AIR)
+Lieberherr-2017-100-35,full,1429,FULL
+Lieberherr-2017-100-36,to give,1447,GIVE
+Lieberherr-2017-100-37,to go,695,GO
+Lieberherr-2017-100-38,good,1035,GOOD
+Lieberherr-2017-100-39,hair on head,2648,HAIR (HEAD)
+Lieberherr-2017-100-40,hard,1884,HARD
+Lieberherr-2017-100-41,head,1256,HEAD
+Lieberherr-2017-100-42,to hear,1408,HEAR
+Lieberherr-2017-100-43,heavy,1210,HEAVY
+Lieberherr-2017-100-44,to hide,2486,HIDE
+Lieberherr-2017-100-45,to kill,1417,KILL
+Lieberherr-2017-100-46,horn,124,THORN
+Lieberherr-2017-100-47,house,1252,HOUSE
+Lieberherr-2017-100-48,in,1460,IN
+Lieberherr-2017-100-49,knee,1371,KNEE
+Lieberherr-2017-100-50,to know,1410,KNOW (SOMETHING)
+Lieberherr-2017-100-51,to laugh,1355,LAUGH
+Lieberherr-2017-100-52,leaf,628,LEAF
+Lieberherr-2017-100-53,leg/foot,2098,FOOT OR LEG
+Lieberherr-2017-100-54,liver,1224,LIVER
+Lieberherr-2017-100-55,long,1203,LONG
+Lieberherr-2017-100-56,louse,1392,LOUSE
+Lieberherr-2017-100-57,moon,1313,MOON
+Lieberherr-2017-100-58,mouth,674,MOUTH
+Lieberherr-2017-100-59,name,1405,NAME
+Lieberherr-2017-100-60,navel,1838,NAVEL
+Lieberherr-2017-100-61,neck,1333,NECK
+Lieberherr-2017-100-62,new,1231,NEW
+Lieberherr-2017-100-63,nose,1221,NOSE
+Lieberherr-2017-100-64,not,1240,NOT
+Lieberherr-2017-100-65,old of things,2113,OLD (USED)
+Lieberherr-2017-100-66,one,1493,ONE
+Lieberherr-2017-100-67,path,2252,PATH
+Lieberherr-2017-100-68,rain,605,GRAIN
+Lieberherr-2017-100-69,red,156,RED
+Lieberherr-2017-100-70,root,670,ROOT
+Lieberherr-2017-100-71,to run,1519,RUN
+Lieberherr-2017-100-72,salt,1274,SALT
+Lieberherr-2017-100-73,sand,671,SAND
+Lieberherr-2017-100-74,to say,1458,SAY
+Lieberherr-2017-100-75,to see,1409,SEE
+Lieberherr-2017-100-76,to sit,1416,SIT
+Lieberherr-2017-100-77,skin/hide,763,SKIN
+Lieberherr-2017-100-78,to sleep,1585,SLEEP
+Lieberherr-2017-100-79,small,1246,SMALL
+Lieberherr-2017-100-80,smoke,778,SMOKE (EXHAUST)
+Lieberherr-2017-100-81,stand,1442,STAND
+Lieberherr-2017-100-82,star,1430,STAR
+Lieberherr-2017-100-83,stone/rock,2125,STONE OR ROCK
+Lieberherr-2017-100-84,sun,1343,SUN
+Lieberherr-2017-100-85,sweet,717,SWEET
+Lieberherr-2017-100-86,tail,1220,TAIL
+Lieberherr-2017-100-87,to take,1749,TAKE
+Lieberherr-2017-100-88,thick,1244,THICK
+Lieberherr-2017-100-89,this,1214,THIS
+Lieberherr-2017-100-90,tongue,1205,TONGUE
+Lieberherr-2017-100-91,tooth,1380,TOOTH
+Lieberherr-2017-100-92,water,948,WATER
+Lieberherr-2017-100-93,what?,1236,WHAT
+Lieberherr-2017-100-94,white,1335,WHITE
+Lieberherr-2017-100-95,who?,1235,WHO
+Lieberherr-2017-100-96,wind,960,WIND
+Lieberherr-2017-100-97,wing,1257,WING
+Lieberherr-2017-100-98,woman,962,WOMAN
+Lieberherr-2017-100-99,wood,1803,WOOD
+Lieberherr-2017-100-100,yesterday,1174,YESTERDAY

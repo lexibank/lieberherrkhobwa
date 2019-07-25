@@ -1,12 +1,18 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
+    "aboutUrl": null,
     "dc:bibliographicCitation": "Lieberherr, Ismail and Bodt, Timotheus Adrianus (2017): Sub-grouping Kho-Bwa based on shared core vocabulary. Himalayan Linguistics 16(2). 26-63. URL: https://escholarship.org/uc/item/4t27h5fg",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+    "dc:description": null,
+    "dc:format": [
+        "http://concepticon.clld.org/contributions/Lieberherr-2017-100"
+    ],
     "dc:identifier": "https://doi.org/10.5281/zenodo.1154518",
+    "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "lieberherrkhobwa",
-    "dcat:accessURL": "https://github.com/lexibank/lieberherrkhobwa",
+    "dc:title": "Sub-grouping Kho-Bwa",
     "rdf:ID": "lieberherrkhobwa",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -16,15 +22,15 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.1-77-g24ddcfb",
-                "concepticon_version": "pyconcepticon-1.4.0-50-g100c401"
+                "glottolog_version": "v4.0",
+                "concepticon_version": "v2.1.0"
             }
         }
     ],
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 2130,
+            "dc:extent": 2132,
             "tableSchema": {
                 "columns": [
                     {
@@ -51,7 +57,7 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://linguistics-ontology.org/gold/2010/FormUnit",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#value",
                         "required": true,
                         "name": "Value"
                     },
@@ -153,6 +159,26 @@
                         "name": "Macroarea"
                     },
                     {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": -90,
+                            "maximum": 90
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
+                        "required": false,
+                        "name": "Latitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": -180,
+                            "maximum": 180
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
+                        "required": false,
+                        "name": "Longitude"
+                    },
+                    {
                         "datatype": "string",
                         "name": "Family"
                     }
@@ -197,7 +223,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
-            "dc:extent": 2130,
+            "dc:extent": 2132,
             "tableSchema": {
                 "columns": [
                     {
