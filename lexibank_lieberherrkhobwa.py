@@ -80,9 +80,6 @@ class Dataset(BaseDataset):
                             if ipa[-1] == "_":
                                 ipa = ipa[:-1].strip()
 
-                            ipa = split_text(ipa, "~/~⪤,")[0]
-                            tks = self.tokenizer(None, ipa, column="IPA")
-
                             # lingpy now requires this to be an integer
                             cognate_id = cid * 100 + int(row[cid + 1])
 
@@ -91,7 +88,6 @@ class Dataset(BaseDataset):
                                 Parameter_ID=concept_by_index[cid],
                                 Form=form,
                                 Value=ipa,
-                                Segments=tks,
                                 Cognacy=cognate_id,
                                 Source=[langs[lid]],
                             ):
