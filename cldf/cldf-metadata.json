@@ -13,6 +13,7 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "Sub-grouping Kho-Bwa",
+    "dcat:accessURL": "https://github.com/lexibank/lieberherrkhobwa",
     "rdf:ID": "lieberherrkhobwa",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -22,15 +23,15 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "v4.0",
-                "concepticon_version": "v2.1.0"
+                "glottolog_version": "v4.0-12-ge90a2e37f4",
+                "concepticon_version": "v2.1.0-6-ga171367"
             }
         }
     ],
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 2132,
+            "dc:extent": 2144,
             "tableSchema": {
                 "columns": [
                     {
@@ -223,7 +224,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
-            "dc:extent": 2132,
+            "dc:extent": 2144,
             "tableSchema": {
                 "columns": [
                     {

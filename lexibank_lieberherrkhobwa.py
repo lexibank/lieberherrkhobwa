@@ -3,7 +3,7 @@ from collections import OrderedDict
 from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
-from pylexibank.dataset import Dataset as BaseDataset
+from pylexibank.dataset import NonSplittingDataset as BaseDataset
 
 URL = (
     "https://zenodo.org/api/files/5469d550-938a-4dae-b6d9-50e427f193b3/"
@@ -19,6 +19,13 @@ class Dataset(BaseDataset):
         self.raw.download_and_unpack(
             URL, "metroxylon-subgrouping-kho-bwa-333538b/data/dataset_khobwa.csv"
         )
+
+    def split_forms(self, item, value):
+        if value in self.lexemes:  # pragma: no cover
+            self.log.debug('overriding via lexemes.csv: %r -> %r' % (value, self.lexemes[value]))
+        value = self.lexemes.get(value, value)
+        return [self.clean_form(item, form)
+                for form in split_text(value, separators='~/,;')]
 
     def cmd_install(self, **kw):
 
@@ -86,8 +93,8 @@ class Dataset(BaseDataset):
                             for lex in ds.add_lexemes(
                                 Language_ID=lid,
                                 Parameter_ID=concept_by_index[cid],
-                                Form=ipa,
                                 Value=form,
+                                Form=ipa,
                                 Cognacy=cognate_id,
                                 Source=[langs[lid]],
                             ):

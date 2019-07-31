@@ -1,4 +1,8 @@
 Grapheme	IPA	EXAMPLES	LANGUAGES	FREQUENCY	CODEPOINTS
+^-	NULL
+-$	NULL
+(	NULL
+)	NULL
 ³³	³³				
 ³¹	³¹				
 ¹¹	¹¹				
@@ -13,7 +17,13 @@ tʂʰ	ʈʂʰ
 $	NULL				
 +	NULL				
 +$	NULL				
-øː	øː				
+^ɔː	ɔː
+ɛʰ$	ɛʰ/ɛ
+^tʂʰe	ʈʂʰ e
+^tʂʰ	ʈʂʰ
+aⁱ$	aⁱ/ai
+øː	øː	
+!	NULL		
 ɛʰ	ɛʰ/ɛ				
 ãː	ãː				
 ʂ	ʂ				
@@ -57,7 +67,7 @@ aʳ	aʳ/a˞
 ɛʴ	ɛʴ/ɛ˞				
 ⁵-⁵	⁵⁵				
 eʳ	eʳ/e˞				
--	NULL	ʔa-rɛŋ, ba-kʰy	Khoina, Khoitam, Rahung, Rupa, Jerigaon, Shergaon, Khispi, Duhumbi, Bulu, Kojo Rojo, Rawa, Chayangtajo, Lasumpatte, Saria, Dikhyang	407	U+002d
+-	+	ʔa-rɛŋ, ba-kʰy	Khoina, Khoitam, Rahung, Rupa, Jerigaon, Shergaon, Khispi, Duhumbi, Bulu, Kojo Rojo, Rawa, Chayangtajo, Lasumpatte, Saria, Dikhyang	407	U+002d
 N	N/ɴ	ʃiN-rin, kətuNrin	Bulu	2	U+004e
 N$	N/ɴ	ahjɛN, dɛN	Bulu, Lasumpatte, Chayangtajo	23	U+004e U+0024
 Nw	N/ɴ w	haNwaiʔ	Bulu	1	U+004e U+0077
@@ -130,7 +140,7 @@ Nʃ	N/ɴ ʃ	haNʃin	Bulu	1	U+004e U+0283
 ^ʨʰ	tɕʰ	ʨʰu, ʨʰak	Khoitam, Rahung, Jerigaon, Shergaon, Khispi, Duhumbi, Rupa, Dikhyang	41	U+005e U+02a8 U+02b0
 ^ʨʰʨʰ	ʨʰ ʨʰ	ʨʰ-ʨʰoː_	Rahung	1	U+005e U+02a8 U+02b0 U+02a8 U+02b0
 ^ẽ	ẽ	ẽeᵘ	Singchung	1	U+005e U+1ebd
-_	NULL	mə-tiː_ja, la-pʰik̚_kʰɔm	Jerigaon, Dikhyang, Bulu, Khispi, Rahung, Khoina, Khoitam, Duhumbi, Rupa	18	U+005f
+_	+	mə-tiː_ja, la-pʰik̚_kʰɔm	Jerigaon, Dikhyang, Bulu, Khispi, Rahung, Khoina, Khoitam, Duhumbi, Rupa	18	U+005f
 _$	NULL			
 _$	NULL	ʔa-jɔː_, s-kuk_	Rupa, Khispi, Rahung, Khoitam, Dikhyang, Jerigaon, Duhumbi, Shergaon, Bichom, Khoina, Kaspi, Wangho	94	U+005f U+0024
 a	a	naŋ, ʧakamaŋ	Rupa, Shergaon, Khoina, Khoitam, Kojo Rojo, Singchung, Khispi, Rahung, Kaspi, Duhumbi, Jerigaon, Bichom, Namphri, Rawa, Wangho, Dikhyang, Chayangtajo, Lasumpatte, Saria, Bulu	624	U+0061
