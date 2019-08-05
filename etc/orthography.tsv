@@ -1,354 +1,354 @@
-Grapheme	IPA	EXAMPLES	LANGUAGES	FREQUENCY	CODEPOINTS
+Grapheme	IPA
 ^-	NULL
 -$	NULL
 (	NULL
 )	NULL
-³³	³³				
-³¹	³¹				
-¹¹	¹¹				
-⁵³	⁵³				
-⁵⁵	⁵⁵				
-ɔː	ɔː				
-tʂʰ	ʈʂʰ				
-^uːə$	uːə				
-^ua$	ua				
-^ai$	ai				
-^ei$	ei				
-$	NULL				
-+	NULL				
-+$	NULL				
+³³	³³
+³¹	³¹
+¹¹	¹¹
+⁵³	⁵³
+⁵⁵	⁵⁵
+ɔː	ɔː
+tʂʰ	ʈʂʰ
+^uːə$	uːə
+^ua$	ua
+^ai$	ai
+^ei$	ei
+$	NULL
++	NULL
++$	NULL
 ^ɔː	ɔː
 ɛʰ$	ɛʰ/ɛ
 ^tʂʰe	ʈʂʰ e
 ^tʂʰ	ʈʂʰ
 aⁱ$	aⁱ/ai
-øː	øː	
-!	NULL		
-ɛʰ	ɛʰ/ɛ				
-ãː	ãː				
-ʂ	ʂ				
-ỹ	ỹ				
-ɛ̃ː	ɛ̃ː				
-aːʰ	aːʰ/aː				
-ĩ	ĩ				
-oᵘ	oᵘ/o				
-aⁱ	aⁱ/a				
-aᵘ	aᵘ/a				
-rᵘ	rᵘ/r				
-iⁱ	iⁱ/i				
-ī	iː				
-uᵉ	uᵉ/u				
-õᵘ	õᵘ/õ				
-ə̄	əː				
-ɛ:	ɛː				
-əː	əː				
-æ	æ				
-ɣ	ɣ				
-ɦ	ɦ				
-ʈ	ʈ				
-əʴ	əʴ/ə˞				
-ʑ	ʑ				
-aʴ	aʴ/a˞				
-eʴ	eʴ/e˞				
-æʳ	æʳ/æ˞				
-ȶ	ȶ				
-c	c				
-ɔʳ	ɔʳ/ɔ˞				
-ɟ	ɟ				
-oʳ	oʳ/o˞				
-aʳ	aʳ/a˞				
-ᵗ	t				
-ɯ	ɯ				
-ᵏ	k				
-ɬ	ɬ				
-əʳ	əʳ/ə˞				
-ç	ç				
-ˀ	ʔ				
-ɛʴ	ɛʴ/ɛ˞				
-⁵-⁵	⁵⁵				
-eʳ	eʳ/e˞				
--	+	ʔa-rɛŋ, ba-kʰy	Khoina, Khoitam, Rahung, Rupa, Jerigaon, Shergaon, Khispi, Duhumbi, Bulu, Kojo Rojo, Rawa, Chayangtajo, Lasumpatte, Saria, Dikhyang	407	U+002d
-N	N/ɴ	ʃiN-rin, kətuNrin	Bulu	2	U+004e
-N$	N/ɴ	ahjɛN, dɛN	Bulu, Lasumpatte, Chayangtajo	23	U+004e U+0024
-Nw	N/ɴ w	haNwaiʔ	Bulu	1	U+004e U+0077
-Nʃ	N/ɴ ʃ	haNʃin	Bulu	1	U+004e U+0283
-^	NULL				
-^+	NULL				
-^a	a	amui, avije	Bulu, Kojo Rojo, Chayangtajo, Lasumpatte, Rawa, Saria, Bichom, Namphri, Singchung, Wangho, Kaspi	192	U+005e U+0061
-^b	b	ba, ba-kʰy	Khispi, Duhumbi, Saria, Dikhyang, Rawa, Bichom, Rupa, Shergaon, Khoina, Kojo Rojo, Chayangtajo, Jerigaon, Lasumpatte, Rahung, Khoitam, Namphri, Bulu, Singchung, Wangho, Kaspi	107	U+005e U+0062
-^d	d	dɛn, dijo	Khoina, Khispi, Duhumbi, Jerigaon, Singchung, Kaspi, Namphri, Dikhyang, Bichom, Rupa, Bulu, Kojo Rojo, Rawa, Chayangtajo, Wangho, Lasumpatte, Shergaon, Rahung, Khoitam, Saria	38	U+005e U+0064
-^e	e	ekʰuk, eraŋ	Wangho, Singchung, Namphri, Bichom, Kaspi, Chayangtajo, Lasumpatte, Saria	88	U+005e U+0065
-^eː	eː	eːkʰuk, eːɕau_	Dikhyang	2	U+005e U+0065 U+02d0
-^f	f	fua, fəu	Namphri, Rawa, Bichom, Bulu, Kojo Rojo, Singchung, Wangho, Khoina, Kaspi, Dikhyang	13	U+005e U+0066
-^g	g	gu, go	Khoina, Saria, Kojo Rojo, Rawa, Chayangtajo, Lasumpatte, Rupa, Kaspi, Bulu, Jerigaon, Shergaon, Khoitam, Rahung, Namphri, Khispi, Duhumbi, Singchung, Bichom, Dikhyang	47	U+005e U+0067
-^h	h	hiŋ, haː	Kojo Rojo, Khispi, Duhumbi, Rawa, Kaspi, Bulu, Wangho, Dikhyang, Saria, Namphri, Jerigaon, Rahung, Chayangtajo, Singchung, Lasumpatte, Bichom, Shergaon, Rupa, Khoitam, Khoina	174	U+005e U+0068
-^hw	w̥	hwa	Khispi, Duhumbi	2	U+005e U+0068 U+0077
-^i	i	in, iu	Namphri, Singchung, Kaspi, Bulu, Kojo Rojo, Rawa, Bichom	11	U+005e U+0069
-^iː$	iː	iː	Bulu, Kojo Rojo, Rawa, Chayangtajo, Lasumpatte, Saria	6	U+005e U+0069 U+02d0 U+0024
-^iⁱ$	iⁱ/i	iⁱ	Wangho	1	U+005e U+0069 U+2071 U+0024
-^j	j	jam, jɔ̃	Namphri, Khoina, Kaspi, Kojo Rojo, Duhumbi, Jerigaon, Wangho, Bichom, Rupa, Shergaon, Khoitam, Rahung, Dikhyang, Singchung, Chayangtajo, Khispi, Saria	32	U+005e U+006a
-^k	k	kua, kəbɹaː	Chayangtajo, Lasumpatte, Saria, Rawa, Kojo Rojo, Bulu, Duhumbi, Khispi, Wangho, Rupa, Dikhyang	73	U+005e U+006b
-^kʰ	kʰ	kʰoᵘ, kʰ-ruk̚	Khispi, Duhumbi, Shergaon, Singchung, Rupa, Kaspi, Namphri, Wangho, Bichom, Jerigaon, Rahung, Khoitam, Dikhyang, Bulu, Khoina	90	U+005e U+006b U+02b0
-^l	l	lɛː, laⁱ	Singchung, Kaspi, Rawa, Jerigaon, Bichom, Namphri, Khoina, Rahung, Khoitam, Rupa, Shergaon, Saria, Kojo Rojo, Khispi, Duhumbi, Wangho, Dikhyang, Bulu, Chayangtajo, Lasumpatte	96	U+005e U+006c
-^m	m	mijak, məriː	Kaspi, Namphri, Duhumbi, Bichom, Rahung, Dikhyang, Saria, Bulu, Singchung, Chayangtajo, Wangho, Khispi, Lasumpatte, Khoina, Rupa, Kojo Rojo, Rawa, Jerigaon, Shergaon, Khoitam	44	U+005e U+006d
-^n	n	naŋ, nam-blu	Khoina, Khoitam, Jerigaon, Rupa, Khispi, Shergaon, Kaspi, Duhumbi, Rahung, Namphri, Rawa, Wangho, Bichom, Bulu, Kojo Rojo, Singchung, Chayangtajo, Lasumpatte, Dikhyang, Saria	108	U+005e U+006e
-^o	o	oe, ovoᵘ	Singchung, Namphri	3	U+005e U+006f
-^p	p	pədoː, pɹɛː	Chayangtajo, Lasumpatte, Saria, Rawa, Kojo Rojo, Namphri, Bulu, Duhumbi, Wangho, Rahung, Kaspi, Dikhyang	29	U+005e U+0070
-^pɕ	p ɕ	pɕiŋ-ba_, pɕiŋ-ba	Khispi, Duhumbi	2	U+005e U+0070 U+0255
-^pʰ	pʰ	pʰijaŋ, pʰ-tʰɛː	Rahung, Singchung, Bichom, Kaspi, Namphri, Wangho, Shergaon, Dikhyang, Bulu, Jerigaon, Rupa, Khoitam	26	U+005e U+0070 U+02b0
-^r	r	rɔ, riŋ	Chayangtajo, Lasumpatte, Saria, Wangho, Dikhyang, Kojo Rojo, Bichom, Kaspi, Bulu, Rawa, Khoitam, Namphri, Singchung, Rahung, Shergaon, Jerigaon, Khoina, Rupa, Duhumbi	80	U+005e U+0072
-^rᵘ	r ᵘ/w	rᵘaŋ	Bichom, Kaspi, Singchung, Namphri	4	U+005e U+0072 U+1d58
-^s	s	su, spije	Jerigaon, Kaspi, Singchung, Rahung, Shergaon, Khoitam, Dikhyang, Wangho, Bichom, Rupa, Namphri, Bulu, Rawa, Saria, Kojo Rojo, Chayangtajo, Lasumpatte	62	U+005e U+0073
-^ss	s s	s-sĩː_	Khoitam	1	U+005e U+0073 U+0073
-^t	t	tua, tuŋ	Rawa, Saria, Bulu, Kojo Rojo, Chayangtajo, Lasumpatte, Namphri, Khispi, Wangho, Bichom, Rupa, Shergaon	32	U+005e U+0074
-^tʰ	tʰ	tʰøː, tʰaː	Singchung, Bichom, Shergaon, Duhumbi, Khispi, Jerigaon, Rupa, Rahung, Khoitam, Kaspi, Khoina, Namphri	26	U+005e U+0074 U+02b0
-^tʰw	tʰ w	tʰwa	Rupa	1	U+005e U+0074 U+02b0 U+0077
-^u	u	uk, ua	Khispi, Duhumbi, Bichom, Namphri, Shergaon, Kaspi, Bulu, Jerigaon, Wangho, Rupa, Rahung, Khoitam, Khoina, Dikhyang	25	U+005e U+0075
-^uː	uː	uːə	Dikhyang	1	U+005e U+0075 U+02d0
-^uː$	uː	uː	Lasumpatte, Chayangtajo, Saria	3	U+005e U+0075 U+02d0 U+0024
-^v	v	vəopʰa, vəwa	Bulu, Namphri, Wangho	4	U+005e U+0076
-^w	w	wat, wa	Duhumbi, Khispi, Kojo Rojo, Wangho, Singchung, Dikhyang, Namphri, Bulu, Rawa, Chayangtajo, Jerigaon, Lasumpatte, Bichom, Rupa, Shergaon, Khoitam, Kaspi, Saria	29	U+005e U+0077
-^x	x	xaː, xɛk	Khoina	2	U+005e U+0078
-^z	z	zɛk, zɛː	Rupa, Jerigaon, Shergaon, Khoitam, Rahung, Bulu, Kojo Rojo, Rawa, Khispi, Duhumbi, Saria	17	U+005e U+007a
-^ĩ	ĩ	ĩt	Dikhyang	1	U+005e U+0129
-^ī	ī/i	īt	Wangho	1	U+005e U+012b
-^ŋ	ŋ	ŋa	Khispi, Duhumbi	2	U+005e U+014b
-^ũ	ũ	ũə	Dikhyang	1	U+005e U+0169
-^ū	ū/u	ūa	Kaspi, Singchung, Wangho	3	U+005e U+016b
-^ɔ	ɔ	ɔi	Dikhyang	1	U+005e U+0254
-^ɕ	ɕ	ɕa-kʰus, ɕa	Khispi, Duhumbi, Dikhyang, Khoina	18	U+005e U+0255
-^ə	ə	əɕɛk, əkou_	Dikhyang	23	U+005e U+0259
-^əə$	əː	əə	Rawa	1	U+005e U+0259 U+0259 U+0024
-^ɨ	ɨ	ɨʔ	Kojo Rojo	1	U+005e U+0268
-^ɲ	ɲ	ɲiŋ_, ɲu_	Saria, Khispi, Shergaon, Duhumbi, Rupa, Dikhyang, Namphri, Singchung, Wangho	24	U+005e U+0272
-^ɹ	ɹ	ɹeⁱpʰa, ɹan	Bichom, Wangho, Kojo Rojo	3	U+005e U+0279
-^ɾ	ɾ	ɾappʰa	Namphri	1	U+005e U+027e
-^ʂ	ʂ	ʂan-ʥɔk, ʂ-kʰuk	Khoina	3	U+005e U+0282
-^ʃ	ʃ	ʃiŋiŋ, ʃiniŋ	Bulu, Namphri, Singchung, Wangho, Bichom, Kaspi	19	U+005e U+0283
-^ʈ͡ʂʰ	ʈʂʰ	ʈ͡ʂʰĩː, ʈ͡ʂʰe	Khoina	3	U+005e U+0288 U+0361 U+0282 U+02b0
-^ʐ	ʐ	ʐaː	Khoina	1	U+005e U+0290
-^ʑ	ʑ	ʑej, ʑɛj	Khispi, Duhumbi	2	U+005e U+0291
-^ʒ	ʒ	ʒeN, ʒou	Bulu, Kojo Rojo	2	U+005e U+0292
-^ʔ	ʔ	ʔiː, ʔa-rɛŋ	Khoina, Jerigaon, Rupa, Rahung, Shergaon, Khoitam, Khispi, Duhumbi, Dikhyang	206	U+005e U+0294
-^ʣ	dz	ʣɔː, ʣiŋ	Khoina	2	U+005e U+02a3
-^ʤ	dʒ	ʤijo, ʤəu	Namphri, Kaspi, Bulu, Kojo Rojo, Lasumpatte, Rawa, Singchung, Chayangtajo, Bichom, Saria	17	U+005e U+02a4
-^ʥ	dʑ	ʥə-my, ʥiŋ	Rahung, Khoitam, Duhumbi, Jerigaon, Shergaon, Rupa, Khispi, Khoina	24	U+005e U+02a5
-^ʦ	ts	ʦaʔ, ʦjɔ̃	Dikhyang, Bulu, Rupa	6	U+005e U+02a6
-^ʦʰ	tsʰ	ʦʰu, ʦʰɛn	Khoina, Rupa	6	U+005e U+02a6 U+02b0
-^ʧ	tʃ	ʧiː, ʧəmut	Wangho, Kaspi, Namphri, Bulu, Kojo Rojo, Rawa, Singchung, Chayangtajo, Bichom, Lasumpatte, Saria	45	U+005e U+02a7
-^ʨ	tɕ	ʨĩː, ʨɔi	Rahung, Dikhyang, Khoitam	5	U+005e U+02a8
-^ʨʰ	tɕʰ	ʨʰu, ʨʰak	Khoitam, Rahung, Jerigaon, Shergaon, Khispi, Duhumbi, Rupa, Dikhyang	41	U+005e U+02a8 U+02b0
-^ʨʰʨʰ	ʨʰ ʨʰ	ʨʰ-ʨʰoː_	Rahung	1	U+005e U+02a8 U+02b0 U+02a8 U+02b0
-^ẽ	ẽ	ẽeᵘ	Singchung	1	U+005e U+1ebd
-_	+	mə-tiː_ja, la-pʰik̚_kʰɔm	Jerigaon, Dikhyang, Bulu, Khispi, Rahung, Khoina, Khoitam, Duhumbi, Rupa	18	U+005f
-_$	NULL			
-_$	NULL	ʔa-jɔː_, s-kuk_	Rupa, Khispi, Rahung, Khoitam, Dikhyang, Jerigaon, Duhumbi, Shergaon, Bichom, Khoina, Kaspi, Wangho	94	U+005f U+0024
-a	a	naŋ, ʧakamaŋ	Rupa, Shergaon, Khoina, Khoitam, Kojo Rojo, Singchung, Khispi, Rahung, Kaspi, Duhumbi, Jerigaon, Bichom, Namphri, Rawa, Wangho, Dikhyang, Chayangtajo, Lasumpatte, Saria, Bulu	624	U+0061
-a$	a	ba, ləmua	Bichom, Khispi, Duhumbi, Namphri, Kaspi, Singchung, Wangho, Khoina, Rupa, Shergaon, Rawa, Chayangtajo, Lasumpatte, Saria, Kojo Rojo, Jerigaon, Bulu, Dikhyang	153	U+0061 U+0024
-ae	ae			
-ai	ai			
-ao	ao			
-au	au			
-aʲ	aʲ/a	afaʲt	Rawa	1	U+0061 U+02b2
-aː	aː	haːsaːm, kjaː_	Dikhyang, Khoina, Rupa, Khispi, Duhumbi	14	U+0061 U+02d0
-aː$	aː	haː, kəbɹaː	Shergaon, Khoina, Rupa, Chayangtajo, Lasumpatte, Saria, Rawa, Bulu, Jerigaon, Dikhyang, Kojo Rojo, Rahung, Khoitam	51	U+0061 U+02d0 U+0024
-aːu	aːu			
-aːʰ$	aː	ʔa-naːʰ	Khoina	1	U+0061 U+02d0 U+02b0 U+0024
-a͡	a	ʔa͡-ʨan-du	Rupa, Shergaon	2	U+0061 U+0361
-aᵘ$	aᵘ/a	labaᵘ, egaᵘ	Wangho, Singchung, Bichom, Kaspi	10	U+0061 U+1d58 U+0024
-aⁱ$	aⁱ	laⁱ, hanaⁱ	Kaspi, Namphri, Bichom, Singchung, Wangho	18	U+0061 U+2071 U+0024
-b	b	habije, nam-blu	Duhumbi, Khispi, Kaspi, Namphri, Singchung, Wangho, Bichom, Shergaon, Dikhyang, Bulu, Kojo Rojo, Rawa, Jerigaon, Chayangtajo, Lasumpatte, Rupa, Rahung, Saria, Khoitam, Khoina	69	U+0062
-d	d	ʔa-dɔk, pədoː	Khispi, Kojo Rojo, Jerigaon, Kaspi, Namphri, Rawa, Duhumbi, Singchung, Rupa, Shergaon, Khoitam, Rahung, Khoina, Dikhyang, Saria, Bulu, Chayangtajo, Lasumpatte, Bichom	38	U+0064
-d͡ʐ	ɖʐ	ʔa-d͡ʐa	Khoina	1	U+0064 U+0361 U+0290
-e	e	a-lei, geiʔ	Kojo Rojo, Chayangtajo, Lasumpatte, Kaspi, Singchung, Bichom, Namphri, Rawa, Wangho, Khispi, Saria, Bulu, Duhumbi, Shergaon, Dikhyang	119	U+0065
-e$	e	hapʰije, habije	Singchung, Namphri, Kaspi, Wangho, Bichom, Chayangtajo, Saria, Duhumbi, Lasumpatte, Rawa, Jerigaon, Khispi, Rupa, Shergaon, Rahung, Khoitam, Dikhyang, Khoina	75	U+0065 U+0024
-ei	ei			
-eo	eo			
-eoː	eoː				
-eĩ	eĩ			
-eː	eː	tɔkʦʰeː_, ʔeːpʰuŋ_	Dikhyang, Rupa, Shergaon	4	U+0065 U+02d0
-eː$	eː	aʧjeː, əlijeː	Lasumpatte, Dikhyang, Chayangtajo, Saria, Bulu	5	U+0065 U+02d0 U+0024
-eᵘ$	eᵘ/e	ẽeᵘ	Singchung	1	U+0065 U+1d58 U+0024
-eⁱ	eⁱ/e	ʃeⁱk, kʰeⁱpʰa	Bichom, Kaspi, Wangho, Namphri	5	U+0065 U+2071
-eⁱ$	eⁱ/e	kʰeⁱ, leⁱ	Bichom, Kaspi, Namphri, Wangho	6	U+0065 U+2071 U+0024
-f	f	afaiʔ, efua	Kojo Rojo, Namphri, Bulu, Rawa, Singchung, Chayangtajo, Wangho, Bichom, Lasumpatte, Rupa, Shergaon, Khoitam, Khoina, Kaspi, Dikhyang, Saria	17	U+0066
-g	g	gɹɛŋgɹo, lagijoŋ	Singchung, Namphri, Bulu, Chayangtajo, Lasumpatte, Rupa, Dikhyang, Kojo Rojo, Rawa, Khispi, Bichom, Kaspi, Saria	34	U+0067
-g$	g	rəg	Bichom	1	U+0067 U+0024
-h	h	ehek, ahjɛN	Kojo Rojo, Jerigaon, Rahung, Singchung, Bulu, Rawa, Khispi, Chayangtajo, Lasumpatte, Rupa, Khoitam, Saria, Namphri, Wangho, Bichom, Shergaon, Kaspi, Dikhyang	39	U+0068
-i	i	hiŋ, ʃiŋiŋ	Singchung, Wangho, Saria, Chayangtajo, Kaspi, Namphri, Lasumpatte, Bichom, Dikhyang, Bulu, Khispi, Duhumbi, Shergaon, Kojo Rojo, Jerigaon, Rupa, Khoitam, Rawa, Rahung, Khoina	360	U+0069
-i$	i	bali, amui	Kojo Rojo, Rawa, Dikhyang, Duhumbi, Bulu, Khispi, Chayangtajo, Lasumpatte, Saria, Namphri, Singchung, Wangho, Bichom, Kaspi, Shergaon, Khoitam, Khoina, Jerigaon, Rahung	126	U+0069 U+0024
-ia	ia			
-ie	ie				
-ii	iː	siiŋ	Bichom	1	U+0069 U+0069
-ii$	iː	mii	Bulu	1	U+0069 U+0069 U+0024
-iu	iu			
-iu	iu				
-iɔ	iɔ			
-iə	iə			
-iɛ	iɛ			
-iː	iː	mə-tiː_ja	Khoina, Jerigaon	2	U+0069 U+02d0
-iː$	iː	ʔiː, ʔa-liː	Bulu, Chayangtajo, Lasumpatte, Shergaon, Kojo Rojo, Jerigaon, Rahung, Khoina, Rupa, Khoitam, Dikhyang, Saria, Rawa	47	U+0069 U+02d0 U+0024
-iᵒ	iᵒ/i	riᵒma	Singchung	1	U+0069 U+1d52
-iᵒ$	iᵒ/io	riᵒ	Bichom, Wangho	2	U+0069 U+1d52 U+0024
-j	j	pʰijaŋ, habije	Wangho, Bichom, Singchung, Lasumpatte, Namphri, Kaspi, Dikhyang, Kojo Rojo, Rawa, Chayangtajo, Bulu, Saria, Rupa, Duhumbi, Khispi, Khoina, Jerigaon, Khoitam, Shergaon, Rahung	232	U+006a
-j$	j	ʔaj, haj	Duhumbi, Khispi	17	U+006a U+0024
-jj	j j	dɛj-ju	Duhumbi	1	U+006a U+006a
-k	k	akəː, s-kuk_	Kojo Rojo, Bulu, Singchung, Khispi, Rupa, Shergaon, Saria, Rawa, Duhumbi, Khoitam, Wangho, Chayangtajo, Jerigaon, Lasumpatte, Namphri, Bichom, Rahung, Kaspi, Dikhyang, Khoina	91	U+006b
-k$	k	uk, zɛk	Khoina, Shergaon, Rupa, Rahung, Dikhyang, Jerigaon, Wangho, Khoitam, Namphri, Chayangtajo, Lasumpatte, Bichom, Singchung, Kaspi, Khispi, Duhumbi	106	U+006b U+0024
-kʰ	kʰ	ba-kʰy, ekʰuk	Duhumbi, Dikhyang, Namphri, Wangho, Rupa, Khispi, Singchung, Jerigaon, Bichom, Rahung, Khoitam, Khoina, Kaspi, Bulu, Shergaon	37	U+006b U+02b0
-k̚	k̚/k	ʔik̚-ʦiŋ, ʨʰak̚ba	Jerigaon, Khoitam, Duhumbi, Rahung, Khispi, Khoina, Dikhyang	13	U+006b U+031a
-k̚$	k̚	kʰ-ruk̚, ʔɔ-dɔk̚	Duhumbi, Khispi, Rahung, Jerigaon, Rupa, Shergaon, Khoitam	15	U+006b U+031a U+0024
-l	l	ʔa-liː, bali	Bulu, Khispi, Jerigaon, Shergaon, Khoina, Rupa, Duhumbi, Khoitam, Dikhyang, Namphri, Kojo Rojo, Rawa, Chayangtajo, Wangho, Lasumpatte, Rahung, Saria, Kaspi, Singchung, Bichom	77	U+006c
-l$	l	ɕɛl, dul	Khispi	4	U+006c U+0024
-m	m	ʧəmut, ʥə-my	Singchung, Khispi, Duhumbi, Namphri, Bulu, Kaspi, Wangho, Bichom, Rahung, Shergaon, Kojo Rojo, Rawa, Jerigaon, Chayangtajo, Lasumpatte, Rupa, Khoitam, Dikhyang, Khoina, Saria	123	U+006d
-m$	m	ham, jam	Kojo Rojo, Bulu, Namphri, Rahung, Shergaon, Khoitam, Duhumbi, Wangho, Bichom, Rupa, Kaspi, Rawa, Khispi, Singchung, Dikhyang, Chayangtajo, Lasumpatte, Khoina	57	U+006d U+0024
-n	n	hanaⁱ, haniju	Bichom, Rupa, Rahung, Kaspi, Namphri, Kojo Rojo, Duhumbi, Jerigaon, Singchung, Khoina, Shergaon, Khispi, Wangho, Bulu, Rawa, Chayangtajo, Lasumpatte, Khoitam, Dikhyang	64	U+006e
-n$	n	dɛn, apin	Kojo Rojo, Bulu, Khoina, Khispi, Jerigaon, Rawa, Duhumbi, Shergaon, Khoitam, Dikhyang, Kaspi, Rahung, Rupa, Namphri, Singchung, Wangho, Bichom	105	U+006e U+0024
-o	o	hepʰomono, hoŋ	Namphri, Chayangtajo, Lasumpatte, Rawa, Wangho, Bichom, Kaspi, Saria, Kojo Rojo, Singchung, Dikhyang, Bulu, Duhumbi	66	U+006f
-o$	o	go, no	Wangho, Namphri, Singchung, Kaspi, Saria, Bichom, Shergaon, Kojo Rojo, Chayangtajo, Lasumpatte, Rawa, Rahung, Dikhyang	43	U+006f U+0024
-oa	oa				
-oe	oe				
-oi	oi				
-ou	ou				
-oɛ	oɛ				
-ūa	ūa				
-aiʔ	ai ʔ				
-^oe$	oe				
-ũə	ũə				
-^ɔi$	ɔi				
-^ei$	ei				
-^iu$	iu				
-^ai$	ai				
-^ũə$	ũə				
-^ūa$	ūa				
-^ẽeᵘ$	ẽeᵘ/ẽu				
-oː	oː	boːɛ, nə-ʦʰoː_	Dikhyang, Rahung, Rawa, Rupa	7	U+006f U+02d0
-oː$	oː	hoː, kʰoː	Rawa, Kojo Rojo, Saria, Dikhyang, Chayangtajo, Lasumpatte, Singchung, Wangho, Rupa, Shergaon	29	U+006f U+02d0 U+0024
-oːɛ	oːɛ				
-oᵉ	oᵉ/o	boᵉmokʰəm, boᵉkʰaᵘ	Singchung, Namphri	2	U+006f U+1d49
-oᵉ$	oᵉ/o	boᵉ, loᵉ	Singchung, Bichom, Wangho, Namphri	5	U+006f U+1d49 U+0024
-oᵘ$	oᵘ/o	kʰoᵘ, boᵘ	Singchung, Kaspi, Wangho, Bichom, Namphri	19	U+006f U+1d58 U+0024
-oⁱ	oⁱ/o	joⁱpʰa	Bichom	1	U+006f U+2071
-oⁱ$	oⁱ/o	eɲoⁱ, ʧoⁱ	Kaspi, Namphri, Bichom, Singchung, Wangho	10	U+006f U+2071 U+0024
-p	p	spije, apɹaŋ	Bulu, Kojo Rojo, Chayangtajo, Lasumpatte, Rawa, Bichom, Singchung, Duhumbi, Khispi, Wangho, Saria, Namphri, Rupa, Shergaon, Kaspi, Dikhyang	58	U+0070
-p$	p	rap, ʧap	Rawa, Shergaon, Bulu, Khispi, Rahung, Khoitam, Namphri, Kojo Rojo, Chayangtajo, Duhumbi, Singchung, Wangho, Lasumpatte, Bichom, Rupa, Kaspi, Dikhyang	29	U+0070 U+0024
-pʰ	pʰ	hapʰije, epʰuŋ	Kaspi, Bichom, Namphri, Jerigaon, Khoitam, Khoina, Rupa, Rahung, Dikhyang, Wangho, Khispi, Singchung, Shergaon, Duhumbi, Bulu	92	U+0070 U+02b0
-p̚$	p̚/p	ʔɔ-ʥɔp̚, u-lap̚	Duhumbi	2	U+0070 U+031a U+0024
-r	r	ʔa-rɛŋ, arjuŋ	Saria, Dikhyang, Chayangtajo, Lasumpatte, Rawa, Bulu, Kojo Rojo, Singchung, Rahung, Wangho, Namphri, Jerigaon, Bichom, Shergaon, Khoitam, Rupa, Kaspi, Khoina, Duhumbi	113	U+0072
-r$	r	dur, waʔar	Duhumbi	3	U+0072 U+0024
-s	s	hasam, esaⁱ	Singchung, Dikhyang, Bichom, Namphri, Bulu, Kojo Rojo, Chayangtajo, Wangho, Lasumpatte, Rupa, Khoitam, Kaspi, Saria, Rawa, Duhumbi, Khispi, Jerigaon, Shergaon, Rahung, Khoina	38	U+0073
-s$	s	ʔɔ-tʰɛs, ɕa-kʰus	Duhumbi, Khispi	5	U+0073 U+0024
-t	t	kətuaŋ, katəː	Duhumbi, Khispi, Bulu, Chayangtajo, Lasumpatte, Khoina, Jerigaon, Wangho, Shergaon, Khoitam, Dikhyang, Saria, Kaspi, Namphri, Kojo Rojo, Singchung, Rahung, Rupa	39	U+0074
-t$	t	wat, ʧəmut	Rawa, Wangho, Kaspi, Singchung, Bichom, Dikhyang, Namphri, Shergaon, Duhumbi, Khispi, Rupa	38	U+0074 U+0024
-tʰ	tʰ	ʔa-tʰɛ, pʰ-tʰɛː	Khoitam, Rahung, Khoina, Khispi, Duhumbi, Jerigaon, Shergaon, Rupa	34	U+0074 U+02b0
-t̚$	t̚	hut̚	Khispi, Duhumbi	2	U+0074 U+031a U+0024
-u	u	suruwa, ʧəmut	Khispi, Chayangtajo, Lasumpatte, Dikhyang, Duhumbi, Saria, Kojo Rojo, Namphri, Wangho, Singchung, Rawa, Shergaon, Bulu, Bichom, Kaspi, Rupa, Rahung, Khoitam, Jerigaon, Khoina	284	U+0075
-u$	u	gu, su	Shergaon, Duhumbi, Jerigaon, Khoina, Rupa, Khoitam, Dikhyang, Rahung, Kojo Rojo, Khispi, Kaspi, Namphri, Rawa, Singchung, Wangho, Bichom, Bulu, Chayangtajo, Lasumpatte	102	U+0075 U+0024
-ua	ua				
-ieː					
-ue	ue				
-uei	u ei				
-ui	ui				
-uə	uə				
-ẽeᵘ	ẽ eᵘ/e				
-uɛ	uɛ				
-uː	uː	ʨʰa-pʰruː_, ʨʰa-pʰluː_	Rahung, Jerigaon	2	U+0075 U+02d0
-uː$	uː	buː, ʨʰa-pʰluː	Bulu, Kojo Rojo, Shergaon, Chayangtajo, Lasumpatte, Khoina, Rupa, Khoitam	15	U+0075 U+02d0 U+0024
-uᵉ$	uᵉ/ue	luᵉ	Bichom, Wangho	2	U+0075 U+1d49 U+0024
-uⁱ	uⁱ/u	ʃuⁱt	Singchung	1	U+0075 U+2071
-v	v	avije, evoŋ	Singchung, Namphri, Wangho, Bichom, Kaspi, Dikhyang	12	U+0076
-w	w	suruwa, awaiʔ	Wangho, Lasumpatte, Bulu, Chayangtajo, Singchung, Bichom, Namphri, Kojo Rojo, Rawa, Khispi, Khoina, Rahung, Saria	21	U+0077
-w$	w	niw, ʔa-jɔw	Duhumbi, Bichom, Namphri, Khispi, Wangho, Rahung, Shergaon, Rupa	10	U+0077 U+0024
-x	x	ʔa-xɛk, ʔa-xyk	Khoina	5	U+0078
-y	y	ʔa-lyŋ, nyŋ	Khoina, Khoitam, Jerigaon, Rahung, Rupa, Bulu, Dikhyang	53	U+0079
-y$	y	ba-kʰy, ʥə-my	Jerigaon, Khoitam, Khoina, Rahung, Rupa, Shergaon	17	U+0079 U+0024
-yi	yi			
-yː	yː	nə-myː_	Khoitam	1	U+0079 U+02d0
-yː$	yː	byː, nə-nyː	Jerigaon, Khoina, Rupa, Rahung, Shergaon, Khoitam	9	U+0079 U+02d0 U+0024
-z	z	gə-zaŋ, kʰazijaŋ	Rawa, Chayangtajo, Shergaon, Bulu, Kojo Rojo, Jerigaon, Rupa, Rahung, Khoitam, Saria, Namphri, Singchung, Wangho, Bichom, Kaspi, Lasumpatte, Dikhyang, Khoina	46	U+007a
-á	á	hán	Dikhyang	1	U+00e1
-á	á/a			
-ã	ã	pãʧɨʔ, ʔa-ʥãn-du	Rawa, Khoina	2	U+00e3
-ã$	ã	raguŋ_juŋã, ewã	Bichom, Dikhyang, Jerigaon	3	U+00e3 U+0024
-ãː$	ãː	ʔa-zãː, ʔyk̚ʔãː	Jerigaon, Khoina, Khoitam	5	U+00e3 U+02d0 U+0024
-õ	õ	tõrɨn, hõamu	Rawa, Kaspi, Namphri, Saria	4	U+00f5
-õ$	õ	hõ, kʰõ	Namphri, Singchung, Wangho, Bichom, Kaspi, Dikhyang	12	U+00f5 U+0024
-õa	õa			
-õː	õː	hõːe	Dikhyang	1	U+00f5 U+02d0
-õː$	õː	əpõː	Dikhyang	1	U+00f5 U+02d0 U+0024
-õːe	õːe			
-õᵘ$	õᵘ/õu	mõᵘ	Bichom, Kaspi	2	U+00f5 U+1d58 U+0024
-ø	ø	nə-søn, na-søn	Khoina, Rahung, Jerigaon	3	U+00f8
-øː$	øː	tʰøː	Khoina, Rupa, Jerigaon	3	U+00f8 U+02d0 U+0024
-ý	ý/y	lýŋ, rýŋ	Khoina, Rahung, Rupa, Jerigaon, Khoitam	5	U+00fd
-ý	ý/y			
-ĩ$	ĩ	ahjɛĩ, bɹõrĩ	Rawa, Saria, Kojo Rojo	3	U+0129 U+0024
-ĩː	ĩː	s-sĩː_, ʔa-ʦĩː_	Rupa, Rahung, Khoitam	3	U+0129 U+02d0
-ĩː$	ĩː	ʨʰĩː, kʰĩː	Khoina, Khoitam, Rahung, Jerigaon, Shergaon, Rupa	17	U+0129 U+02d0 U+0024
-ŋ	ŋ	ʃiŋiŋ, gɹɛŋgɹo	Duhumbi, Kaspi, Khispi, Khoitam, Dikhyang, Kojo Rojo, Khoina, Shergaon, Rupa, Saria, Namphri, Singchung, Wangho, Jerigaon, Lasumpatte, Bichom, Rahung, Rawa, Chayangtajo	54	U+014b
-ŋ$	ŋ	naŋ, hiŋ	Khoitam, Rahung, Saria, Chayangtajo, Lasumpatte, Jerigaon, Khoina, Kaspi, Namphri, Khispi, Duhumbi, Wangho, Rupa, Bichom, Shergaon, Dikhyang, Kojo Rojo, Rawa, Singchung, Bulu	314	U+014b U+0024
-ŋh	ŋ̊	aŋhuiʔ	Lasumpatte, Chayangtajo	2	U+014b U+0068
-ŋs	ŋ s	toŋsəu	Rawa	1	U+014b U+0073
-ŋŋ	ŋ ŋ	hiŋŋa_lej	Khispi	1	U+014b U+014b
-ũ	ũ	hũŋ, fũppʰa	Bichom, Rahung	2	U+0169
-ũə	ũə			
-ũː	ũː	nũː_	Khoitam	1	U+0169 U+02d0
-ũː$	ũː	ʔa-ʨʰũː, hũː	Khoina, Rupa, Rahung, Khoitam	5	U+0169 U+02d0 U+0024
-ū	ū/u	nūa	Wangho	1	U+016b
-ūa	ua			
-ɐ	ɐ	ʥɐ-pʰluː	Khoina	1	U+0250
-ɔ	ɔ	ʔa-dɔk, ʔɔʔɔ̃ː	Duhumbi, Khispi, Dikhyang, Rahung, Shergaon, Rupa, Khoitam, Bulu, Khoina, Jerigaon	87	U+0254
-ɔ$	ɔ	rɔ, ʔɔ	Rupa, Rahung, Khoitam, Jerigaon, Khoina, Shergaon, Khispi	18	U+0254 U+0024
-ɔi	ɔi			
-ɔː	ɔː	bɔːdi, ʔa-jɔː_	Khoitam, Khispi, Duhumbi, Rupa, Rahung	9	U+0254 U+02d0
-ɔː$	ɔː	kʰɔː, ʔa-jɔː	Jerigaon, Khoina, Bulu, Shergaon, Khoitam, Khispi, Rupa, Rahung, Saria	22	U+0254 U+02d0 U+0024
-ɔ̃	ɔ̃	ʨɔ̃n-du_, ʔa-xɔ̃ŋ_	Rahung, Khoina	2	U+0254 U+0303
-ɔ̃$	ɔ̃	jɔ̃, nɔ̃	Dikhyang, Jerigaon, Khoina, Rupa, Rahung, Khoitam	8	U+0254 U+0303 U+0024
-ɔ̃ː	ɔ̃ː	nɔ̃ː-ʨʰi, pʰ-ʨʰɔ̃ː_waː	Khoina, Rahung, Rupa, Jerigaon	4	U+0254 U+0303 U+02d0
-ɔ̃ː$	ɔ̃ː	ʔa-ʨʰɔ̃ː, ʔa-zɔ̃ː	Shergaon, Rahung, Rupa, Khoina, Khoitam	14	U+0254 U+0303 U+02d0 U+0024
-ɕ	ɕ	əɕɛk, ɕap-ɕin	Dikhyang, Khispi, Duhumbi	5	U+0255
-ə	ə	ʧəmut, həŋ	Rawa, Bulu, Rupa, Kojo Rojo, Chayangtajo, Lasumpatte, Dikhyang, Saria, Khoitam, Shergaon, Jerigaon, Khoina, Namphri, Kaspi, Singchung, Wangho, Bichom, Rahung	207	U+0259
-ə$	ə	bə-, tʰə	Dikhyang, Rahung, Kojo Rojo, Jerigaon, Khoina, Khoitam	16	U+0259 U+0024
-əo	əo			
-əu	əu			
-əə$	əː	rou-gəə, tʰevəə	Bichom, Chayangtajo, Lasumpatte	3	U+0259 U+0259 U+0024
-əː$	əː	akəː, katəː	Lasumpatte, Chayangtajo, Saria, Kojo Rojo, Rawa	9	U+0259 U+02d0 U+0024
-ə̄$	ə̄/ə	uŋə̄	Namphri	1	U+0259 U+0304 U+0024
-ə̌	ə̌/ə	pə̌sen	Kaspi	1	U+0259 U+030c
-ɛ	ɛ	ʔa-rɛŋ, zɛk	Rahung, Dikhyang, Jerigaon, Duhumbi, Bulu, Khispi, Khoina, Shergaon, Khoitam, Rupa, Rawa, Chayangtajo, Lasumpatte, Kojo Rojo, Saria	118	U+025b
-ɛ$	ɛ	ʔa-tʰɛ, lɛ	Jerigaon, Khoitam, Dikhyang, Rahung, Chayangtajo, Lasumpatte, Kojo Rojo, Khoina	24	U+025b U+0024
-ɛ:$	ɛː	ʤirjɛ:	Bulu	1	U+025b U+003a U+0024
-ɛi	ɛi			
-ɛĩ	ɛĩ			
-ɛɛ	ɛː	bɛɛ-rak, bɛɛʧiʔ	Lasumpatte, Chayangtajo, Saria	3	U+025b U+025b
-ɛʰ$	ɛʰ	ʔa-nɛʰ	Rahung, Jerigaon, Khoitam	3	U+025b U+02b0 U+0024
-ɛː	ɛː	bɛːkɨː, hɛː_	Saria, Chayangtajo, Lasumpatte, Bulu, Jerigaon	8	U+025b U+02d0
-ɛː$	ɛː	hɛː, lɛː	Bulu, Lasumpatte, Rahung, Khoitam, Chayangtajo, Saria, Jerigaon, Kojo Rojo, Rawa, Khoina, Shergaon	50	U+025b U+02d0 U+0024
-ɛ̃	ɛ̃	mətʰɛ̃n, sɛ̃j_	Khoina, Jerigaon	2	U+025b U+0303
-ɛ̃$	ɛ̃	ahɛ̃	Saria	1	U+025b U+0303 U+0024
-ɛ̃ː$	ɛ̃ː	ʔa-ʦʰɛ̃ː, tʰuŋ-ʦɛ̃ː	Rupa, Khoina	3	U+025b U+0303 U+02d0 U+0024
-ɨ	ɨ	hɨŋ, pãʧɨʔ	Rawa, Bulu, Kojo Rojo	14	U+0268
-ɨɨ$	ɨː	toʔrɨɨ	Saria	1	U+0268 U+0268 U+0024
-ɨː	ɨː	panʧɨːhɹɛː, katɨːsɨː	Saria, Kojo Rojo	2	U+0268 U+02d0
-ɨː$	ɨː	baikɨː, ʤɨː	Saria, Bulu, Kojo Rojo, Chayangtajo, Lasumpatte, Rawa	17	U+0268 U+02d0 U+0024
-ɨ̃	ɨ̃	hɨ̃-jəm, hɨ̃-rin	Kojo Rojo	2	U+0268 U+0303
-ɲ	ɲ	eɲoⁱ, ʔa-ɲaː	Dikhyang, Namphri, Singchung, Wangho, Bichom, Rupa, Shergaon, Kaspi	11	U+0272
-ɹ	ɹ	gɹɛŋgɹo, kəbɹaː	Kojo Rojo, Chayangtajo, Saria, Lasumpatte, Rawa, Khispi, Duhumbi, Kaspi	52	U+0279
-ɹ$	ɹ	ɕɛɹ, jaŋkaɹ	Duhumbi	2	U+0279 U+0024
-ɾ	ɾ	kʰɾuk	Bichom, Kaspi, Singchung, Namphri	4	U+027e
-ʃ	ʃ	eʃaik, aʃiʔ	Namphri, Bulu, Kojo Rojo, Singchung, Wangho, Bichom	8	U+0283
-ʈ͡ʂʰ	ʈʂʰ	ʔa-ʈ͡ʂʰũː	Khoina	1	U+0288 U+0361 U+0282 U+02b0
-ʐ	ʐ	gə-ʐaŋ, dy-ʐyk	Khoina	2	U+0290
-ʒ	ʒ	aʒun, aʒuiN	Bulu, Kojo Rojo	4	U+0292
-ʔ	ʔ	ʔɔʔɔ̃ː, ʔyk̚ʔãː	Rupa, Saria, Jerigaon, Namphri, Bulu, Rawa, Duhumbi, Bichom, Shergaon, Rahung, Khoitam, Khoina, Dikhyang	18	U+0294
-ʔ$	ʔ	geiʔ, aiʔ	Saria, Chayangtajo, Lasumpatte, Bulu, Rawa, Kojo Rojo, Duhumbi, Bichom, Khoina, Kaspi	107	U+0294 U+0024
-ʣ	dz	ʔaʣajŋ_	Khoina	1	U+02a3
-ʤ	dʒ	pəʤaiʔ, aʤua	Lasumpatte, Chayangtajo, Bulu	6	U+02a4
-ʥ	dʑ	ʔa-ʥap, ʔaʥɛŋ	Khoitam, Jerigaon, Rahung, Duhumbi, Khoina, Shergaon	17	U+02a5
-ʦ	ts	ʔik̚-ʦiŋ, beʦa	Rupa, Duhumbi, Khoina, Bulu, Khispi, Khoitam, Shergaon, Dikhyang	13	U+02a6
-ʦʰ	tsʰ	nə-ʦʰoː_, nə-ʦʰaw	Rupa, Khoina, Shergaon	7	U+02a6 U+02b0
-ʧ	tʃ	aʧaː, aʧaiʔ	Kojo Rojo, Rawa, Chayangtajo, Lasumpatte, Bulu, Saria, Wangho	21	U+02a7
-ʨ	tɕ	ʔa-ʨu, ʔa͡-ʨan-du	Shergaon, Rahung, Khispi, Duhumbi, Jerigaon, Khoina, Khoitam, Rupa	11	U+02a8
-ʨʰ	tɕʰ	ʔa-ʨʰɔ̃ː, ʔu-ʨʰam	Rahung, Khispi, Jerigaon, Shergaon, Duhumbi, Khoina, Khoitam, Rupa, Dikhyang	28	U+02a8 U+02b0
-ỹ$	ỹ	ɕ-tỹ	Khoina	1	U+1ef9 U+0024
-’	NULL	ʔik’kjiŋ_	Shergaon	1	U+2019
+øː	øː
+!	NULL
+ɛʰ	ɛʰ/ɛ
+ãː	ãː
+ʂ	ʂ
+ỹ	ỹ
+ɛ̃ː	ɛ̃ː
+aːʰ	aːʰ/aː
+ĩ	ĩ
+oᵘ	oᵘ/o
+aⁱ	aⁱ/a
+aᵘ	aᵘ/a
+rᵘ	rᵘ/r
+iⁱ	iⁱ/i
+ī	iː
+uᵉ	uᵉ/u
+õᵘ	õᵘ/õ
+ə̄	əː
+ɛ:	ɛː
+əː	əː
+æ	æ
+ɣ	ɣ
+ɦ	ɦ
+ʈ	ʈ
+əʴ	əʴ/ə˞
+ʑ	ʑ
+aʴ	aʴ/a˞
+eʴ	eʴ/e˞
+æʳ	æʳ/æ˞
+ȶ	ȶ
+c	c
+ɔʳ	ɔʳ/ɔ˞
+ɟ	ɟ
+oʳ	oʳ/o˞
+aʳ	aʳ/a˞
+ᵗ	t
+ɯ	ɯ
+ᵏ	k
+ɬ	ɬ
+əʳ	əʳ/ə˞
+ç	ç
+ˀ	ʔ
+ɛʴ	ɛʴ/ɛ˞
+⁵-⁵	⁵⁵
+eʳ	eʳ/e˞
+-	+
+N	N/ɴ
+N$	N/ɴ
+Nw	N/ɴ w
+Nʃ	N/ɴ ʃ
+^	NULL
+^+	NULL
+^a	a
+^b	b
+^d	d
+^e	e
+^eː	eː
+^f	f
+^g	g
+^h	h
+^hw	w̥
+^i	i
+^iː$	iː
+^iⁱ$	iⁱ/i
+^j	j
+^k	k
+^kʰ	kʰ
+^l	l
+^m	m
+^n	n
+^o	o
+^p	p
+^pɕ	p ɕ
+^pʰ	pʰ
+^r	r
+^rᵘ	r ᵘ/w
+^s	s
+^ss	s s
+^t	t
+^tʰ	tʰ
+^tʰw	tʰ w
+^u	u
+^uː	uː
+^uː$	uː
+^v	v
+^w	w
+^x	x
+^z	z
+^ĩ	ĩ
+^ī	ī/i
+^ŋ	ŋ
+^ũ	ũ
+^ū	ū/u
+^ɔ	ɔ
+^ɕ	ɕ
+^ə	ə
+^əə$	əː
+^ɨ	ɨ
+^ɲ	ɲ
+^ɹ	ɹ
+^ɾ	ɾ
+^ʂ	ʂ
+^ʃ	ʃ
+^ʈ͡ʂʰ	ʈʂʰ
+^ʐ	ʐ
+^ʑ	ʑ
+^ʒ	ʒ
+^ʔ	ʔ
+^ʣ	dz
+^ʤ	dʒ
+^ʥ	dʑ
+^ʦ	ts
+^ʦʰ	tsʰ
+^ʧ	tʃ
+^ʨ	tɕ
+^ʨʰ	tɕʰ
+^ʨʰʨʰ	tɕʰ + tɕʰ
+^ẽ	ẽ
+_	+
+_$	NULL
+_$	NULL
+a	a
+a$	a
+ae	ae
+ai	ai
+ao	ao
+au	au
+aʲ	aʲ/a
+aː	aː
+aː$	aː
+aːu	aːu
+aːʰ$	aː
+a͡	a
+aᵘ$	aᵘ/a
+aⁱ$	aⁱ
+b	b
+d	d
+d͡ʐ	ɖʐ
+e	e
+e$	e
+ei	ei
+eo	eo
+eoː	eoː
+eĩ	eĩ/ẽi
+eː	eː
+eː$	eː
+eᵘ$	eᵘ/e
+eⁱ	eⁱ/e
+eⁱ$	eⁱ/e
+f	f
+g	g
+g$	g
+h	h
+i	i
+i$	i
+ia	ia
+ie	ie
+ii	iː
+ii$	iː
+iu	iu
+iu	iu
+iɔ	iɔ
+iə	iə
+iɛ	iɛ
+iː	iː
+iː$	iː
+iᵒ	iᵒ/i
+iᵒ$	iᵒ/io
+j	j
+j$	j
+jj	j j
+k	k
+k$	k
+kʰ	kʰ
+k̚	k̚/k
+k̚$	k̚
+l	l
+l$	l
+m	m
+m$	m
+n	n
+n$	n
+o	o
+o$	o
+oa	oa
+oe	oe
+oi	oi
+ou	ou
+oɛ	oɛ
+ūa	ūa
+aiʔ	ai ʔ
+^oe$	oe
+ũə	ũə
+^ɔi$	ɔi
+^ei$	ei
+^iu$	iu
+^ai$	ai
+^ũə$	ũə
+^ūa$	ūa
+^ẽeᵘ$	ẽeᵘ/ẽu
+oː	oː
+oː$	oː
+oːɛ	oːɛ
+oᵉ	oᵉ/o
+oᵉ$	oᵉ/o
+oᵘ$	oᵘ/o
+oⁱ	oⁱ/o
+oⁱ$	oⁱ/o
+p	p
+p$	p
+pʰ	pʰ
+p̚$	p̚/p
+r	r
+r$	r
+s	s
+s$	s
+t	t
+t$	t
+tʰ	tʰ
+t̚$	t̚
+u	u
+u$	u
+ua	ua
+ieː	ieː
+ue	ue
+uei	u ei
+ui	ui
+uə	uə
+ẽeᵘ	ẽ eᵘ/e
+uɛ	uɛ
+uː	uː
+uː$	uː
+uᵉ$	uᵉ/ue
+uⁱ	uⁱ/u
+v	v
+w	w
+w$	w
+x	x
+y	y
+y$	y
+yi	yi
+yː	yː
+yː$	yː
+z	z
+á	á
+á	á/a
+ã	ã
+ã$	ã
+ãː$	ãː
+õ	õ
+õ$	õ
+õa	õa
+õː	õː
+õː$	õː
+õːe	õːe
+õᵘ$	õᵘ/õu
+ø	ø
+øː$	øː
+ý	ý/y
+ý	ý/y
+ĩ$	ĩ
+ĩː	ĩː
+ĩː$	ĩː
+ŋ	ŋ
+ŋ$	ŋ
+ŋh	ŋ̊
+ŋs	ŋ s
+ŋŋ	ŋ ŋ
+ũ	ũ
+ũə	ũə
+ũː	ũː
+ũː$	ũː
+ū	ū/u
+ūa	ua
+ɐ	ɐ
+ɔ	ɔ
+ɔ$	ɔ
+ɔi	ɔi
+ɔː	ɔː
+ɔː$	ɔː
+ɔ̃	ɔ̃
+ɔ̃$	ɔ̃
+ɔ̃ː	ɔ̃ː
+ɔ̃ː$	ɔ̃ː
+ɕ	ɕ
+ə	ə
+ə$	ə
+əo	əo
+əu	əu
+əə$	əː
+əː$	əː
+ə̄$	ə̄/ə
+ə̌	ə̌/ə
+ɛ	ɛ
+ɛ$	ɛ
+ɛ:$	ɛː
+ɛi	ɛi
+ɛĩ	ɛĩ/ɛ̃i
+ɛɛ	ɛː
+ɛʰ$	ɛʰ
+ɛː	ɛː
+ɛː$	ɛː
+ɛ̃	ɛ̃
+ɛ̃$	ɛ̃
+ɛ̃ː$	ɛ̃ː
+ɨ	ɨ
+ɨɨ$	ɨː
+ɨː	ɨː
+ɨː$	ɨː
+ɨ̃	ɨ̃
+ɲ	ɲ
+ɹ	ɹ
+ɹ$	ɹ
+ɾ	ɾ
+ʃ	ʃ
+ʈ͡ʂʰ	ʈʂʰ
+ʐ	ʐ
+ʒ	ʒ
+ʔ	ʔ
+ʔ$	ʔ
+ʣ	dz
+ʤ	dʒ
+ʥ	dʑ
+ʦ	ts
+ʦʰ	tsʰ
+ʧ	tʃ
+ʨ	tɕ
+ʨʰ	tɕʰ
+ỹ$	ỹ
+’	NULL
