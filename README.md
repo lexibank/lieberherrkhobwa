@@ -28,6 +28,6 @@ Conceptlists in Concepticon:
 - **Cognacy:** 2,144 cognates in 310 cognate sets (67 singletons)
 - **Cognate Diversity:** 0.10
 - **Invalid lexemes:** 0
-- **Tokens:** 9,146
+- **Tokens:** 9,170
 - **Segments:** 164 (0 BIPA errors, 0 CTLS sound class errors, 164 CLTS modified)
 - **Inventory size (avg):** 49.41

@@ -1,9 +1,11 @@
+# encoding:utf-8
+
 from collections import OrderedDict
 
 from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
-from pylexibank.dataset import NonSplittingDataset as BaseDataset
+from pylexibank.dataset import NonSplittingDataset
 
 URL = (
     "https://zenodo.org/api/files/5469d550-938a-4dae-b6d9-50e427f193b3/"
@@ -11,7 +13,7 @@ URL = (
 )
 
 
-class Dataset(BaseDataset):
+class Dataset(NonSplittingDataset):
     id = "lieberherrkhobwa"
     dir = Path(__file__).parent
 
@@ -21,19 +23,37 @@ class Dataset(BaseDataset):
         )
 
     def split_forms(self, item, value):
+        """
+        Splits and cleans forms before passing them to the tokenizer.
+        """
+
+        # Inform that the value is being overriden
         if value in self.lexemes:  # pragma: no cover
-            self.log.debug('overriding via lexemes.csv: %r -> %r' % (value, self.lexemes[value]))
+            self.log.debug('overriding via lexemes.csv: %r -> %r' %
+                           (value, self.lexemes[value]))
+
+        # Get the replacement value for `lexemes.csv`
         value = self.lexemes.get(value, value)
-        return [self.clean_form(item, form).strip()
-                for form in split_text(value, separators='~/,;')]
+
+        # Return a list of cleaned forms, splitting over tilde, slash,
+        # comma, and colon
+        forms = [
+            self.clean_form(item, form)
+            for form in split_text(value, separators='~/,;')
+        ]
+
+        return forms
 
     def cmd_install(self, **kw):
-
+        # Read the raw data
         data = self.raw.read_csv("dataset_khobwa.csv")
-        assert set(len(r) for r in data) == {201}
+
         concept_by_index = OrderedDict()
         for i in range(1, len(data[0]), 2):
             concept_by_index[i] = data[0][i]
+
+        print(concept_by_index)
+        input()
 
         with self.cldf as ds:
             ds.add_sources(*self.raw.read_bib())
