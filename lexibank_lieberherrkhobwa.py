@@ -121,8 +121,7 @@ class Dataset(NonSplittingDataset):
                             for lex in ds.add_lexemes(
                                     Language_ID=lid,
                                     Parameter_ID=concept_by_index[cid],
-                                    Value=value,
-                                    Form=form,
+                                    Value=form,
                                     Cognacy=cognate_id,
                                     Source=[langs[lid]],
                             ):
