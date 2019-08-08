@@ -1,7 +1,5 @@
 # encoding:utf-8
 
-from collections import OrderedDict
-
 from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
@@ -48,25 +46,19 @@ class Dataset(NonSplittingDataset):
         # Read the raw data
         data = self.raw.read_csv("dataset_khobwa.csv")
 
-        concept_by_index = OrderedDict()
-        for i in range(1, len(data[0]), 2):
-            concept_by_index[i] = data[0][i]
-
-        print(concept_by_index)
-        input()
-
         with self.cldf as ds:
+            # Add bibliographic sources
             ds.add_sources(*self.raw.read_bib())
 
-            # Read raw concept data and append it
-            for concept in self.conceptlist.concepts.values():
-                for i, gloss in list(concept_by_index.items()):
-                    if gloss == concept.english:
-                        concept_by_index[i] = concept.id
-                        break
-                else:
-                    raise ValueError(concept["ENGLISH"])
+            # Read raw concept data and add to dataset; at the same time,
+            # build a map between the concept index in data and the
+            # concept id in the dataset
+            concept_by_index = {}
+            for cid, concept in enumerate(self.conceptlist.concepts.values()):
+                # We can get the concept id from the raw data
+                concept_by_index[1+(cid*2)] = concept.id
 
+                # Add the concept
                 ds.add_concept(
                     ID=concept.id,
                     Name=concept.english,
@@ -74,10 +66,12 @@ class Dataset(NonSplittingDataset):
                     Concepticon_Gloss=concept.concepticon_gloss,
                 )
 
-            # Read raw languages and append it
+            # Read raw languages and add to the dataset; at the same time,
+            # build a map
             langs = {}
             for language in self.languages:
                 langs[language["Name"]] = language["Source"]
+
                 ds.add_language(
                     ID=language["Name"],
                     Name=language["Name"],
@@ -87,12 +81,18 @@ class Dataset(NonSplittingDataset):
 
             # iterate over the source adding lexemes and collecting cognates
             for row in data[2:]:
+                # Get the language_id, which also allows to skip over
+                # data we don't want
                 lid = slug(row[0])
+
                 if lid in langs:
                     for cid in range(1, len(row), 2):
+                        # Extract the form from the raw data, skipping over
+                        # missing or non-existing forms
                         form = row[cid]
                         if not form or (form == "NA"):
                             continue
+
                         ipa = form
                         ipa = ipa.replace("- ", "-").replace(" ", "_")
                         ipa = strip_brackets(ipa).strip()
