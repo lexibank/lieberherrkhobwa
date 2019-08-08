@@ -1,24 +1,35 @@
 # encoding:utf-8
 
+"""
+Module for installing the Lieberherr and Bodt (2017) dataset.
+"""
+
 from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
 from pylexibank.dataset import NonSplittingDataset
 
-URL = (
-    "https://zenodo.org/api/files/5469d550-938a-4dae-b6d9-50e427f193b3/"
-    "metroxylon/subgrouping-kho-bwa-v1.0.0.zip"
-)
-
 
 class Dataset(NonSplittingDataset):
+    """
+    Defines the dataset for Lieberherr and Bodt (2017).
+    """
+
     id = "lieberherrkhobwa"
     dir = Path(__file__).parent
 
     def cmd_download(self, **kw):
-        self.raw.download_and_unpack(
-            URL, "metroxylon-subgrouping-kho-bwa-333538b/data/dataset_khobwa.csv"
+        """
+        Download the raw zipped data and extract it.
+        """
+        zip_url = (
+            "https://zenodo.org/api/files/5469d550-938a-4dae-b6d9-50e427f193b3/"
+            "metroxylon/subgrouping-kho-bwa-v1.0.0.zip"
         )
+        filename = "metroxylon-subgrouping-kho-bwa-333538b/data/dataset_khobwa.csv"
+
+        self.raw.download_and_unpack(zip_url, filename)
+
 
     def split_forms(self, item, value):
         """
@@ -87,36 +98,33 @@ class Dataset(NonSplittingDataset):
 
                 if lid in langs:
                     for cid in range(1, len(row), 2):
-                        # Extract the form from the raw data, skipping over
+                        # Extract the value from the raw data, skipping over
                         # missing or non-existing forms
-                        form = row[cid]
-                        if not form or (form == "NA"):
+                        value = row[cid].strip()
+                        if not value or value == "NA":
                             continue
 
-                        ipa = form
-                        ipa = ipa.replace("- ", "-").replace(" ", "_")
-                        ipa = strip_brackets(ipa).strip()
+                        # Build the form, removing spaces between words
+                        # in the same value and stripping brackets
+                        form = value.replace("- ", "-").replace(" ", "_")
+                        form = strip_brackets(form).strip()
 
-                        if ipa:
-                            # split ipa and remove final/initial underscores if any
-                            # (without regular expressions)
-                            ipa = split_text(ipa, "~/~⪤,")[0]
-
-                            if ipa[0] == "_":
-                                ipa = ipa[1:].strip()
-                            if ipa[-1] == "_":
-                                ipa = ipa[:-1].strip()
+                        if form:
+                            # split form and remove final/initial underscores
+                            # if any (without regular expressions)
+                            form = split_text(form, "~/~⪤,")[0]
+                            form = form.strip("_")
 
                             # lingpy now requires this to be an integer
                             cognate_id = cid * 100 + int(row[cid + 1])
 
                             for lex in ds.add_lexemes(
-                                Language_ID=lid,
-                                Parameter_ID=concept_by_index[cid],
-                                Value=form.strip(),
-                                Form=ipa,
-                                Cognacy=cognate_id,
-                                Source=[langs[lid]],
+                                    Language_ID=lid,
+                                    Parameter_ID=concept_by_index[cid],
+                                    Value=value,
+                                    Form=form,
+                                    Cognacy=cognate_id,
+                                    Source=[langs[lid]],
                             ):
                                 ds.add_cognate(
                                     lexeme=lex,
