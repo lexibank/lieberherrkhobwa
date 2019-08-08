@@ -47,7 +47,7 @@ class Dataset(NonSplittingDataset):
         # Return a list of cleaned forms, splitting over tilde, slash,
         # comma, and colon
         forms = [
-            self.clean_form(item, form)
+            self.clean_form(item, form).strip()
             for form in split_text(value, separators='~/,;')
         ]
 
