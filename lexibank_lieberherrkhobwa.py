@@ -7,10 +7,10 @@ Module for installing the Lieberherr and Bodt (2017) dataset.
 from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
-from pylexibank.dataset import NonSplittingDataset
+from pylexibank.dataset import Dataset as BaseDataset
 
 
-class Dataset(NonSplittingDataset):
+class Dataset(BaseDataset):
     """
     Defines the dataset for Lieberherr and Bodt (2017).
     """
@@ -98,6 +98,14 @@ class Dataset(NonSplittingDataset):
 
                 if lid in langs:
                     for cid in range(1, len(row), 2):
+                        # Skip over rows with empty fields for cogid
+                        if not row[cid+1]:
+                            continue
+                            
+                        # Compute a cognate_id number; lingpy now requires
+                        # this to be an integer
+                        cognate_id = cid * 100 + int(row[cid + 1])
+                    
                         # Extract the value from the raw data, skipping over
                         # missing or non-existing forms
                         value = row[cid].strip()
@@ -106,28 +114,26 @@ class Dataset(NonSplittingDataset):
 
                         # Build the form, removing spaces between words
                         # in the same value and stripping brackets
-                        form = value.replace("- ", "-").replace(" ", "_")
-                        form = strip_brackets(form).strip()
+                        form = value.replace("- ", "-")
 
-                        if form:
-                            # split form and remove final/initial underscores
-                            # if any (without regular expressions)
-                            form = split_text(form, "~/~⪤,")[0]
-                            form = form.strip("_")
-
-                            # lingpy now requires this to be an integer
-                            cognate_id = cid * 100 + int(row[cid + 1])
-
-                            for lex in ds.add_lexemes(
-                                    Language_ID=lid,
-                                    Parameter_ID=concept_by_index[cid],
-                                    Value=form,
-                                    Cognacy=cognate_id,
-                                    Source=[langs[lid]],
-                            ):
-                                ds.add_cognate(
-                                    lexeme=lex,
-                                    Cognateset_ID=cognate_id,
-                                    Source="Lieberherr2017",
-                                    Alignment_Source="",
-                                )
+                        # split form and remove final/initial underscores
+                        # if any (without regular expressions); the
+                        # check for existence is necessary due to
+                        # `split_text` failing on empty strings
+                        form = split_text(form, "~/~⪤,")[0]
+                            
+                        form = form.strip("_")
+                        
+                        for lex in ds.add_lexemes(
+                                Language_ID=lid,
+                                Parameter_ID=concept_by_index[cid],
+                                Value=form,
+                                Cognacy=cognate_id,
+                                Source=[langs[lid]],
+                        ):
+                            ds.add_cognate(
+                                lexeme=lex,
+                                Cognateset_ID=cognate_id,
+                                Source="Lieberherr2017",
+                                Alignment_Source="",
+                            )
