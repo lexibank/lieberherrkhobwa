@@ -1,23 +1,23 @@
-ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family
-bichom,bichom,bich1234,Bichom,,,,,
-bulu,bulu,bulu1255,Bulu,,,,,
-chayangtajo,chayangtajo,bugu1245,Chayangtajo,,,,,
-dikhyang,dikhyang,dikh1234,Dikhyang,,,,,
-duhumbi,duhumbi,chug1252,Chug,,,,,
-jerigaon,jerigaon,jeri1243,Jerigaon,,,,,
-kaspi,kaspi,kasp1234,Kaspi,,,,,
-khispi,khispi,lish1235,Lish,,,,,
-khoina,khoina,khoi1253,Khoina,,,,,
-khoitam,khoitam,khoi1252,Khoitam,,,,,
-kojorojo,kojorojo,kojo1234,Kojo Rojo,,,,,
-lasumpatte,lasumpatte,lasu1234,Lasumpatte,,,,,
-lidaqin,lidaqin,sulu1241,Eastern Puroik,,,,,
-namphri,namphri,namp1239,Namphri,,,,,
-rahung,rahung,rahu1234,Rahung,,,,,
-rawa,rawa,rawa1269,Rawa (Puroik),,,,,
-rupa,rupa,rupa1234,Rupa,,,,,
-saria,saria,sari1249,Sario Saria,,,,,
-shergaon,shergaon,sher1261,Shergaon,,,,,
-singchung,singchung,sing1271,Singchung,,,,,
-wangho,wangho,wang1301,Wangho,,,,,
-zmyyc,zmyyc,sulu1241,Eastern Puroik,,,,,
+ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,Source
+bichom,bichom,bich1234,Bichom,,,,,,Lieberherr2017
+bulu,bulu,bulu1255,Bulu,,,,,,Lieberherr2017
+chayangtajo,chayangtajo,bugu1245,Chayangtajo,,,,,,Lieberherr2017
+dikhyang,dikhyang,dikh1234,Dikhyang,,,,,,Lieberherr2017
+duhumbi,duhumbi,chug1252,Chug,,,,,,Lieberherr2017
+jerigaon,jerigaon,jeri1243,Jerigaon,,,,,,Lieberherr2017
+kaspi,kaspi,kasp1234,Kaspi,,,,,,Lieberherr2017
+khispi,khispi,lish1235,Lish,,,,,,Lieberherr2017
+khoina,khoina,khoi1253,Khoina,,,,,,Lieberherr2017
+khoitam,khoitam,khoi1252,Khoitam,,,,,,Lieberherr2017
+kojorojo,kojorojo,kojo1234,Kojo Rojo,,,,,,Lieberherr2017
+lasumpatte,lasumpatte,lasu1234,Lasumpatte,,,,,,Lieberherr2017
+lidaqin,lidaqin,sulu1241,Eastern Puroik,,,,,,Lieberherr2017
+namphri,namphri,namp1239,Namphri,,,,,,Lieberherr2017
+rahung,rahung,rahu1234,Rahung,,,,,,Lieberherr2017
+rawa,rawa,rawa1269,Rawa (Puroik),,,,,,Lieberherr2017
+rupa,rupa,rupa1234,Rupa,,,,,,Lieberherr2017
+saria,saria,sari1249,Sario Saria,,,,,,Lieberherr2017
+shergaon,shergaon,sher1261,Shergaon,,,,,,Lieberherr2017
+singchung,singchung,sing1271,Singchung,,,,,,Lieberherr2017
+wangho,wangho,wang1301,Wangho,,,,,,Lieberherr2017
+zmyyc,zmyyc,sulu1241,Eastern Puroik,,,,,,Sun1991

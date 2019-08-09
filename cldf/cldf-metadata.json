@@ -178,6 +178,10 @@
                     {
                         "datatype": "string",
                         "name": "Family"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Source"
                     }
                 ],
                 "primaryKey": [

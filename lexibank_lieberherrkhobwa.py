@@ -4,10 +4,16 @@
 Module for installing the Lieberherr and Bodt (2017) dataset.
 """
 
+import attr
 from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
 from pylexibank.dataset import Dataset as BaseDataset
+from pylexibank.dataset import Language
+
+@attr.s
+class KBLanguage(Language):
+    Source = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -17,6 +23,7 @@ class Dataset(BaseDataset):
 
     id = "lieberherrkhobwa"
     dir = Path(__file__).parent
+    language_class = KBLanguage
 
     def cmd_download(self, **kw):
         """
@@ -53,6 +60,7 @@ class Dataset(BaseDataset):
 
         return forms
 
+
     def cmd_install(self, **kw):
         # Read the raw data
         data = self.raw.read_csv("dataset_khobwa.csv")
@@ -78,17 +86,9 @@ class Dataset(BaseDataset):
                 )
 
             # Read raw languages and add to the dataset; at the same time,
-            # build a map
-            langs = {}
-            for language in self.languages:
-                langs[language["Name"]] = language["Source"]
-
-                ds.add_language(
-                    ID=language["Name"],
-                    Name=language["Name"],
-                    Glottocode=language["Glottocode"],
-                    Glottolog_Name=language["Glottolog_Name"],
-                )
+            # build a map that can be used for iterating over language ids
+            langs = {l['Name']:l['Source'] for l in self.languages}
+            ds.add_languages()
 
             # iterate over the source adding lexemes and collecting cognates
             for row in data[2:]:
@@ -112,17 +112,9 @@ class Dataset(BaseDataset):
                         if not value or value == "NA":
                             continue
 
-                        # Build the form, removing spaces between words
-                        # in the same value and stripping brackets
-                        form = value.replace("- ", "-")
-
-                        # split form and remove final/initial underscores
-                        # if any (without regular expressions); the
-                        # check for existence is necessary due to
-                        # `split_text` failing on empty strings
-                        form = split_text(form, "~/~⪤,")[0]
-                            
-                        form = form.strip("_")
+                        # Build the form from the value, splitting the text
+                        # first
+                        form = split_text(value, "~/~⪤,")[0]
                         
                         for lex in ds.add_lexemes(
                                 Language_ID=lid,
