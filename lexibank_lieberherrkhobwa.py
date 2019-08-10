@@ -55,7 +55,7 @@ class Dataset(BaseDataset):
         # comma, and colon
         forms = [
             self.clean_form(item, form).strip()
-            for form in split_text(value, separators='~/,;')
+            for form in split_text(value, separators='~/,;⪤')
         ]
 
         return forms
@@ -101,25 +101,21 @@ class Dataset(BaseDataset):
                         # Skip over rows with empty fields for cogid
                         if not row[cid+1]:
                             continue
-                            
+
                         # Compute a cognate_id number; lingpy now requires
                         # this to be an integer
                         cognate_id = cid * 100 + int(row[cid + 1])
-                    
+
                         # Extract the value from the raw data, skipping over
                         # missing or non-existing forms
                         value = row[cid].strip()
                         if not value or value == "NA":
                             continue
 
-                        # Build the form from the value, splitting the text
-                        # first
-                        form = split_text(value, "~/~⪤,")[0]
-                        
                         for lex in ds.add_lexemes(
                                 Language_ID=lid,
                                 Parameter_ID=concept_by_index[cid],
-                                Value=form,
+                                Value=value,
                                 Cognacy=cognate_id,
                                 Source=[langs[lid]],
                         ):
