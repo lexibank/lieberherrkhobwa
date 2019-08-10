@@ -109,19 +109,17 @@ class Dataset(BaseDataset):
                         # Extract the value from the raw data, skipping over
                         # missing or non-existing forms
                         value = row[cid].strip()
-                        if not value or value == "NA":
-                            continue
-
-                        for lex in ds.add_lexemes(
-                                Language_ID=lid,
-                                Parameter_ID=concept_by_index[cid],
-                                Value=value,
-                                Cognacy=cognate_id,
-                                Source=[langs[lid]],
-                        ):
-                            ds.add_cognate(
-                                lexeme=lex,
-                                Cognateset_ID=cognate_id,
-                                Source="Lieberherr2017",
-                                Alignment_Source="",
-                            )
+                        if value != "NA":
+                            for lex in ds.add_lexemes(
+                                    Language_ID=lid,
+                                    Parameter_ID=concept_by_index[cid],
+                                    Value=value,
+                                    Cognacy=cognate_id,
+                                    Source=[langs[lid]],
+                            ):
+                                ds.add_cognate(
+                                    lexeme=lex,
+                                    Cognateset_ID=cognate_id,
+                                    Source="Lieberherr2017",
+                                    Alignment_Source="",
+                                )
