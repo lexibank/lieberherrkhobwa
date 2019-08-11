@@ -1,23 +1,23 @@
-ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,Source
-bichom,bichom,bich1234,Bichom,,,,,,Lieberherr2017
-bulu,bulu,bulu1255,Bulu,,,,,,Lieberherr2017
-chayangtajo,chayangtajo,bugu1245,Chayangtajo,,,,,,Lieberherr2017
-dikhyang,dikhyang,dikh1234,Dikhyang,,,,,,Lieberherr2017
-duhumbi,duhumbi,chug1252,Chug,,,,,,Lieberherr2017
-jerigaon,jerigaon,jeri1243,Jerigaon,,,,,,Lieberherr2017
-kaspi,kaspi,kasp1234,Kaspi,,,,,,Lieberherr2017
-khispi,khispi,lish1235,Lish,,,,,,Lieberherr2017
-khoina,khoina,khoi1253,Khoina,,,,,,Lieberherr2017
-khoitam,khoitam,khoi1252,Khoitam,,,,,,Lieberherr2017
-kojorojo,kojorojo,kojo1234,Kojo Rojo,,,,,,Lieberherr2017
-lasumpatte,lasumpatte,lasu1234,Lasumpatte,,,,,,Lieberherr2017
-lidaqin,lidaqin,sulu1241,Eastern Puroik,,,,,,Lieberherr2017
-namphri,namphri,namp1239,Namphri,,,,,,Lieberherr2017
-rahung,rahung,rahu1234,Rahung,,,,,,Lieberherr2017
-rawa,rawa,rawa1269,Rawa (Puroik),,,,,,Lieberherr2017
-rupa,rupa,rupa1234,Rupa,,,,,,Lieberherr2017
-saria,saria,sari1249,Sario Saria,,,,,,Lieberherr2017
-shergaon,shergaon,sher1261,Shergaon,,,,,,Lieberherr2017
-singchung,singchung,sing1271,Singchung,,,,,,Lieberherr2017
-wangho,wangho,wang1301,Wangho,,,,,,Lieberherr2017
-zmyyc,zmyyc,sulu1241,Eastern Puroik,,,,,,Sun1991
+ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,Source,Source_Name
+Bichom,Bichom,bich1234,Bichom,,,,,,Lieberherr2017,Bichom
+Bulu,Bulu,bulu1255,Bulu,,,,,,Lieberherr2017,Bulu
+Chayangtajo,Chayangtajo,bugu1245,Chayangtajo,,,,,,Lieberherr2017,Chayangtajo
+Dikhyang,Dikhyang,dikh1234,Dikhyang,,,,,,Lieberherr2017,Dikhyang
+Duhumbi,Duhumbi,chug1252,Chug,,,,,,Lieberherr2017,Duhumbi
+Jerigaon,Jerigaon,jeri1243,Jerigaon,,,,,,Lieberherr2017,Jerigaon
+Kaspi,Kaspi,kasp1234,Kaspi,,,,,,Lieberherr2017,Kaspi
+Khispi,Khispi,lish1235,Lish,,,,,,Lieberherr2017,Khispi
+Khoina,Khoina,khoi1253,Khoina,,,,,,Lieberherr2017,Khoina
+Khoitam,Khoitam,khoi1252,Khoitam,,,,,,Lieberherr2017,Khoitam
+Kojo_Rojo,Kojo Rojo,kojo1234,Kojo Rojo,,,,,,Lieberherr2017,Kojo Rojo
+Lasumpatte,Lasumpatte,lasu1234,Lasumpatte,,,,,,Lieberherr2017,Lasumpatte
+Namphri,Namphri,namp1239,Namphri,,,,,,Lieberherr2017,Namphri
+Rahung,Rahung,rahu1234,Rahung,,,,,,Lieberherr2017,Rahung
+Rawa,Rawa,rawa1269,Rawa (Puroik),,,,,,Lieberherr2017,Rawa
+Rupa,Rupa,rupa1234,Rupa,,,,,,Lieberherr2017,Rupa
+Saria,Saria,sari1249,Sario Saria,,,,,,Lieberherr2017,Saria
+Shergaon,Shergaon,sher1261,Shergaon,,,,,,Lieberherr2017,Shergaon
+Singchung,Singchung,sing1271,Singchung,,,,,,Lieberherr2017,Singchung
+Wangho,Wangho,wang1301,Wangho,,,,,,Lieberherr2017,Wangho
+Eastern_Puroik_Sun,Eastern Puroik (Sun),sulu1241,Eastern Puroik,,,,,,Sun1991,ZMYYC
+Eastern_Puroik_Li,Eastern Puroik (Li),kuru1311,Kurung Kumey,,,,,,Li2004,Li Daqin

@@ -14,6 +14,7 @@ from pylexibank.dataset import Language
 @attr.s
 class KBLanguage(Language):
     Source = attr.ib(default=None)
+    Source_Name = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -87,16 +88,17 @@ class Dataset(BaseDataset):
 
             # Read raw languages and add to the dataset; at the same time,
             # build a map that can be used for iterating over language ids
-            langs = {l['Name']:l['Source'] for l in self.languages}
+            langs = {
+                l['Source_Name']: {'id': l['ID'], 'source': l['Source']}
+                for l in self.languages
+            }
             ds.add_languages()
 
             # iterate over the source adding lexemes and collecting cognates
             for row in data[2:]:
-                # Get the language_id, which also allows to skip over
-                # data we don't want
-                lid = slug(row[0])
-
-                if lid in langs:
+                # Confirm the row refers to one of the languages to be
+                # included (i.e., no reconstructions)
+                if row[0] in langs:
                     for cid in range(1, len(row), 2):
                         # Skip over rows with empty fields for cogid
                         if not row[cid+1]:
@@ -111,11 +113,11 @@ class Dataset(BaseDataset):
                         value = row[cid].strip()
                         if value != "NA":
                             for lex in ds.add_lexemes(
-                                    Language_ID=lid,
+                                    Language_ID=langs[row[0]]['id'],
                                     Parameter_ID=concept_by_index[cid],
                                     Value=value,
                                     Cognacy=cognate_id,
-                                    Source=[langs[lid]],
+                                    Source=langs[row[0]]['source'],
                             ):
                                 ds.add_cognate(
                                     lexeme=lex,
