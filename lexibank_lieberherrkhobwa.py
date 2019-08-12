@@ -24,7 +24,7 @@ class Dataset(BaseDataset):
         if value in self.lexemes:  # pragma: no cover
             self.log.debug('overriding via lexemes.csv: %r -> %r' % (value, self.lexemes[value]))
         value = self.lexemes.get(value, value)
-        return [self.clean_form(item, form)
+        return [self.clean_form(item, form).strip()
                 for form in split_text(value, separators='~/,;')]
 
     def cmd_install(self, **kw):
@@ -93,7 +93,7 @@ class Dataset(BaseDataset):
                             for lex in ds.add_lexemes(
                                 Language_ID=lid,
                                 Parameter_ID=concept_by_index[cid],
-                                Value=form,
+                                Value=form.strip(),
                                 Form=ipa,
                                 Cognacy=cognate_id,
                                 Source=[langs[lid]],
