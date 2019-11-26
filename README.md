@@ -8,9 +8,9 @@ This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/
 
 Available online at https://doi.org/10.5281/zenodo.1154518
 
-Conceptlists in Concepticon:
-- [Lieberherr-2017-100](http://concepticon.clld.org/contributions/Lieberherr-2017-100)
 
+Conceptlists in Concepticon:
+- [Lieberherr-2017-100](https://concepticon.clld.org/contributions/Lieberherr-2017-100)
 ## Statistics
 
 
@@ -24,6 +24,7 @@ Conceptlists in Concepticon:
 - **Varieties:** 22
 - **Concepts:** 100
 - **Lexemes:** 2,144
+- **Sources:** 3
 - **Synonymy:** 1.01
 - **Cognacy:** 2,144 cognates in 310 cognate sets (67 singletons)
 - **Cognate Diversity:** 0.10
