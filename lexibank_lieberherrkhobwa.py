@@ -9,7 +9,9 @@ from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
 from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.dataset import Language
+from pylexibank import Language
+from pylexibank.util import progressbar
+from pylexibank import FormSpec
 
 @attr.s
 class KBLanguage(Language):
@@ -25,6 +27,13 @@ class Dataset(BaseDataset):
     id = "lieberherrkhobwa"
     dir = Path(__file__).parent
     language_class = KBLanguage
+    form_spec = FormSpec(
+            separators = "~/,;⪤",
+            missing_data = (
+                "NA",
+                ),
+                            first_form_only=True
+            )
 
     def cmd_download(self, **kw):
         """
@@ -36,92 +45,64 @@ class Dataset(BaseDataset):
         )
         filename = "metroxylon-subgrouping-kho-bwa-333538b/data/dataset_khobwa.csv"
 
-        self.raw.download_and_unpack(zip_url, filename)
+        self.raw_dir.download(
+            zip_url, "kho-bwa-v1.0.0.zip"
+        )
 
+    def cmd_makecldf(self, args):
+        # Add bibliographic sources
+        args.writer.add_sources()
 
-    def split_forms(self, item, value):
-        """
-        Splits and cleans forms before passing them to the tokenizer.
-        """
+        # Read raw concept data and add to dataset; at the same time,
+        # build a map between the concept index as used in data and the
+        # concept id in the dataset
+        concept_lookup = {}
+        for cid, concept in enumerate(self.conceptlists[0].concepts.values()):
+            concept_lookup[1+(cid*2)] = concept.id
 
-        # Inform that the value is being overriden
-        if value in self.lexemes:  # pragma: no cover
-            self.log.debug('overriding via lexemes.csv: %r -> %r' %
-                           (value, self.lexemes[value]))
+            # Add the concept
+            args.writer.add_concept(
+                ID=concept.id,
+                Name=concept.english,
+                Concepticon_ID=concept.concepticon_id,
+                Concepticon_Gloss=concept.concepticon_gloss,
+            )
 
-        # Get the replacement value for `lexemes.csv`
-        value = self.lexemes.get(value, value)
+        # Add languages and make a map for individual sources
+        language_lookup = args.writer.add_languages(lookup_factory="Source_Name")
+        source_lookup = {
+            entry['Source_Name'] : entry['Source']
+            for entry in self.languages
+        }
 
-        # Return a list of cleaned forms, splitting over tilde, slash,
-        # comma, and colon
-        forms = [
-            self.clean_form(item, form).strip()
-            for form in split_text(value, separators='~/,;⪤')
-        ]
+        # Read raw data and remove headers and rows with reconstructions
+        # (row[0] not in languages)
+        data = self.raw_dir.read_csv("dataset_khobwa.csv")
+        data = data[2:]
+        data = [row for row in data if row[0] in language_lookup]
 
-        return forms
+        # iterate over the source adding lexemes and collecting cognates
+        for row in progressbar(data, desc="makecldf"):
+            for cid in range(1, len(row), 2):
+                # Skip over rows with empty fields for cogid
+                if not row[cid+1]:
+                    continue
 
+                # Compute a cognate_id number; lingpy now requires
+                # this to be an integer
+                cognate_id = cid * 100 + int(row[cid + 1])
 
-    def cmd_install(self, **kw):
-        # Read the raw data
-        data = self.raw.read_csv("dataset_khobwa.csv")
-
-        with self.cldf as ds:
-            # Add bibliographic sources
-            ds.add_sources(*self.raw.read_bib())
-
-            # Read raw concept data and add to dataset; at the same time,
-            # build a map between the concept index in data and the
-            # concept id in the dataset
-            concept_by_index = {}
-            for cid, concept in enumerate(self.conceptlist.concepts.values()):
-                # We can get the concept id from the raw data
-                concept_by_index[1+(cid*2)] = concept.id
-
-                # Add the concept
-                ds.add_concept(
-                    ID=concept.id,
-                    Name=concept.english,
-                    Concepticon_ID=concept.concepticon_id,
-                    Concepticon_Gloss=concept.concepticon_gloss,
-                )
-
-            # Read raw languages and add to the dataset; at the same time,
-            # build a map that can be used for iterating over language ids
-            langs = {
-                l['Source_Name']: {'id': l['ID'], 'source': l['Source']}
-                for l in self.languages
-            }
-            ds.add_languages()
-
-            # iterate over the source adding lexemes and collecting cognates
-            for row in data[2:]:
-                # Confirm the row refers to one of the languages to be
-                # included (i.e., no reconstructions)
-                if row[0] in langs:
-                    for cid in range(1, len(row), 2):
-                        # Skip over rows with empty fields for cogid
-                        if not row[cid+1]:
-                            continue
-
-                        # Compute a cognate_id number; lingpy now requires
-                        # this to be an integer
-                        cognate_id = cid * 100 + int(row[cid + 1])
-
-                        # Extract the value from the raw data, skipping over
-                        # missing or non-existing forms
-                        value = row[cid].strip()
-                        if value != "NA":
-                            for lex in ds.add_lexemes(
-                                    Language_ID=langs[row[0]]['id'],
-                                    Parameter_ID=concept_by_index[cid],
-                                    Value=value,
-                                    Cognacy=cognate_id,
-                                    Source=langs[row[0]]['source'],
-                            ):
-                                ds.add_cognate(
-                                    lexeme=lex,
-                                    Cognateset_ID=cognate_id,
-                                    Source="Lieberherr2017",
-                                    Alignment_Source="",
-                                )
+                # Extract the value from the raw data, skipping over
+                # missing or non-existing forms
+                for lex in args.writer.add_lexemes(
+                            Language_ID=language_lookup[row[0]],
+                                Parameter_ID=concept_lookup[cid],
+                                Value=row[cid],
+                                Cognacy=cognate_id,
+                                Source=source_lookup[row[0]],
+                ):
+                    args.writer.add_cognate(
+                                lexeme=lex,
+                                Cognateset_ID=cognate_id,
+                                Source="Lieberherr2017",
+                            )
