@@ -1,5 +1,3 @@
-# encoding:utf-8
-
 """
 Module for installing the Lieberherr and Bodt (2017) dataset.
 """
@@ -12,6 +10,7 @@ from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank import Language
 from pylexibank.util import progressbar
 from pylexibank import FormSpec
+
 
 @attr.s
 class KBLanguage(Language):
@@ -27,13 +26,7 @@ class Dataset(BaseDataset):
     id = "lieberherrkhobwa"
     dir = Path(__file__).parent
     language_class = KBLanguage
-    form_spec = FormSpec(
-            separators = "~/,;⪤",
-            missing_data = (
-                "NA",
-                ),
-                            first_form_only=True
-            )
+    form_spec = FormSpec(separators="~/,;⪤", missing_data=("NA",))
 
     def cmd_download(self, **kw):
         """
@@ -43,11 +36,11 @@ class Dataset(BaseDataset):
             "https://zenodo.org/api/files/5469d550-938a-4dae-b6d9-50e427f193b3/"
             "metroxylon/subgrouping-kho-bwa-v1.0.0.zip"
         )
-        filename = "metroxylon-subgrouping-kho-bwa-333538b/data/dataset_khobwa.csv"
-
-        self.raw_dir.download(
-            zip_url, "kho-bwa-v1.0.0.zip"
+        filename = (
+            "metroxylon-subgrouping-kho-bwa-333538b/data/dataset_khobwa.csv"
         )
+
+        self.raw_dir.download(zip_url, "kho-bwa-v1.0.0.zip")
 
     def cmd_makecldf(self, args):
         # Add bibliographic sources
@@ -57,22 +50,26 @@ class Dataset(BaseDataset):
         # build a map between the concept index as used in data and the
         # concept id in the dataset
         concept_lookup = {}
-        for cid, concept in enumerate(self.conceptlists[0].concepts.values()):
-            concept_lookup[1+(cid*2)] = concept.id
+        for cidx, concept in enumerate(self.conceptlists[0].concepts.values()):
+            concept_cldf_id = (
+                concept.id.split("-")[-1] + "_" + slug(concept.english)
+            )
+            concept_lookup[1 + (cidx * 2)] = concept_cldf_id
 
             # Add the concept
             args.writer.add_concept(
-                ID=concept.id,
+                ID=concept_cldf_id,
                 Name=concept.english,
                 Concepticon_ID=concept.concepticon_id,
                 Concepticon_Gloss=concept.concepticon_gloss,
             )
 
         # Add languages and make a map for individual sources
-        language_lookup = args.writer.add_languages(lookup_factory="Source_Name")
+        language_lookup = args.writer.add_languages(
+            lookup_factory="Source_Name"
+        )
         source_lookup = {
-            entry['Source_Name'] : entry['Source']
-            for entry in self.languages
+            entry["Source_Name"]: entry["Source"] for entry in self.languages
         }
 
         # Read raw data and remove headers and rows with reconstructions
@@ -85,7 +82,7 @@ class Dataset(BaseDataset):
         for row in progressbar(data, desc="makecldf"):
             for cid in range(1, len(row), 2):
                 # Skip over rows with empty fields for cogid
-                if not row[cid+1]:
+                if not row[cid + 1]:
                     continue
 
                 # Compute a cognate_id number; lingpy now requires
@@ -93,16 +90,19 @@ class Dataset(BaseDataset):
                 cognate_id = cid * 100 + int(row[cid + 1])
 
                 # Extract the value from the raw data, skipping over
-                # missing or non-existing forms
+                # missing or non-existing forms. We need to strip here,
+                # as there are entries with newlines and FormSpec, as the
+                # name implies, does not apply to values.
+                value = row[cid].strip()
                 for lex in args.writer.add_lexemes(
-                            Language_ID=language_lookup[row[0]],
-                                Parameter_ID=concept_lookup[cid],
-                                Value=row[cid],
-                                Cognacy=cognate_id,
-                                Source=source_lookup[row[0]],
+                    Language_ID=language_lookup[row[0]],
+                    Parameter_ID=concept_lookup[cid],
+                    Value=value,
+                    Cognacy=cognate_id,
+                    Source=source_lookup[row[0]],
                 ):
                     args.writer.add_cognate(
-                                lexeme=lex,
-                                Cognateset_ID=cognate_id,
-                                Source="Lieberherr2017",
-                            )
+                        lexeme=lex,
+                        Cognateset_ID=cognate_id,
+                        Source="Lieberherr2017",
+                    )
