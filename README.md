@@ -1,4 +1,4 @@
-# Sub-grouping Kho-Bwa
+# CLDF dataset derived from Lierberherr and Bodt's "Comparative Wordlists of Kho-Bwa" from 2017
 
 Cite the source dataset as
 
@@ -32,3 +32,15 @@ Conceptlists in Concepticon:
 - **Tokens:** 9,146
 - **Segments:** 164 (0 BIPA errors, 0 CTLS sound class errors, 164 CLTS modified)
 - **Inventory size (avg):** 49.41
+
+# Contributors
+
+Name | GitHub user | Description | Role
+--- | --- | --- | --- |
+Tiago Tresoldi | @tresoldi | patron, orthography | Autor
+Johann-Mattis List | @lingulist | code, orthography, concepts | Autor
+Robert Forkel | @xrotwang | code, integration | Autor
+Christoph Rzymski | @chrzymski | code, integraration | Autor
+Timotheus Adrianus Bodt | | | DataCurator, Distributor
+
+
