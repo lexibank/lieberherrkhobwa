@@ -1,4 +1,4 @@
-# CLDF dataset derived from Lierberherr and Bodt's "Comparative Wordlists of Kho-Bwa" from 2017
+# CLDF dataset derived from Lieberherr and Bodt's "Comparative Wordlists of Kho-Bwa" from 2017
 
 Cite the source dataset as
 
@@ -41,6 +41,7 @@ Tiago Tresoldi | @tresoldi | patron, orthography | Author
 Johann-Mattis List | @lingulist | code, orthography, concepts | Author
 Robert Forkel | @xrotwang | code, integration | Author
 Christoph Rzymski | @chrzyki | code, integraration | Author
+Ismail Lieberherr | | | DataCurator, Distributor
 Timotheus Adrianus Bodt | | | DataCurator, Distributor
 
 

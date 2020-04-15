@@ -11,14 +11,14 @@
     "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from Lierberherr and Bodt's \"Comparative Wordlists of Kho-Bwa\" from 2017",
+    "dc:title": "CLDF dataset derived from Lieberherr and Bodt's \"Comparative Wordlists of Kho-Bwa\" from 2017",
     "dcat:accessURL": "https://github.com/lexibank/lieberherrkhobwa",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lieberherrkhobwa",
-            "dc:created": "v0.1.2-23-g8444767"
+            "dc:created": "v0.1.2-25-gb93c574"
         },
         {
             "rdf:type": "prov:Entity",
