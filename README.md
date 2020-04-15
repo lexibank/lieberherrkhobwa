@@ -37,10 +37,10 @@ Conceptlists in Concepticon:
 
 Name | GitHub user | Description | Role
 --- | --- | --- | --- |
-Tiago Tresoldi | @tresoldi | patron, orthography | Autor
-Johann-Mattis List | @lingulist | code, orthography, concepts | Autor
-Robert Forkel | @xrotwang | code, integration | Autor
-Christoph Rzymski | @chrzymski | code, integraration | Autor
+Tiago Tresoldi | @tresoldi | patron, orthography | Author
+Johann-Mattis List | @lingulist | code, orthography, concepts | Author
+Robert Forkel | @xrotwang | code, integration | Author
+Christoph Rzymski | @chrzyki | code, integraration | Author
 Timotheus Adrianus Bodt | | | DataCurator, Distributor
 
 
