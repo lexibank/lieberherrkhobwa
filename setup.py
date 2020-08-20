@@ -14,6 +14,9 @@ setup(
     py_modules=["lexibank_lieberherrkhobwa"],
     include_package_data=True,
     zip_safe=False,
-    entry_points={"lexibank.dataset": ["lieberherrkhobwa=lexibank_lieberherrkhobwa:Dataset"]},
+    entry_points={
+        "lexibank.dataset": ["lieberherrkhobwa=lexibank_lieberherrkhobwa:Dataset"],
+        "cldfbench.commands": ["lieberherrkhobwa=commands"],
+    },
     install_requires=["pylexibank>=2.1"],
 )

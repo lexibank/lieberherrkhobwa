@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lieberherrkhobwa",
-            "dc:created": "v0.1.2-23-g6c5bb2e"
+            "dc:created": "v0.1.2-24-g3f5bc77"
         },
         {
             "rdf:type": "prov:Entity",
