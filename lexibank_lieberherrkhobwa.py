@@ -5,7 +5,6 @@ Module for installing the Lieberherr and Bodt (2017) dataset.
 import attr
 from clldutils.misc import slug
 from clldutils.path import Path
-from clldutils.text import split_text, strip_brackets
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank import Language
 from pylexibank.util import progressbar
@@ -35,9 +34,6 @@ class Dataset(BaseDataset):
         zip_url = (
             "https://zenodo.org/api/files/5469d550-938a-4dae-b6d9-50e427f193b3/"
             "metroxylon/subgrouping-kho-bwa-v1.0.0.zip"
-        )
-        filename = (
-            "metroxylon-subgrouping-kho-bwa-333538b/data/dataset_khobwa.csv"
         )
 
         self.raw_dir.download(zip_url, "kho-bwa-v1.0.0.zip")
