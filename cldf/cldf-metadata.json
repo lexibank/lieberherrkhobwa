@@ -8,7 +8,7 @@
     ],
     "dc:identifier": "https://doi.org/10.5281/zenodo.1154518",
     "dc:isVersionOf": null,
-    "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Lieberherr and Bodt's \"Comparative Wordlists of Kho-Bwa\" from 2017",
@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lieberherrkhobwa",
-            "dc:created": "v0.1.2-22-g599d555"
+            "dc:created": "v0.1.2-29-g4ba2d48"
         },
         {
             "rdf:type": "prov:Entity",
@@ -35,14 +35,14 @@
         {
             "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "dc:created": "v1.4"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.5.2"
+            "dc:description": "3.7.9"
         },
         {
             "dc:title": "python-packages",

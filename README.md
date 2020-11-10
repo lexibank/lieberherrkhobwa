@@ -4,7 +4,7 @@ Cite the source dataset as
 
 > Lieberherr, Ismail and Bodt, Timotheus Adrianus (2017): Sub-grouping Kho-Bwa based on shared core vocabulary. Himalayan Linguistics 16(2). 26-63. URL: https://escholarship.org/uc/item/4t27h5fg
 
-This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/ license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://doi.org/10.5281/zenodo.1154518
 

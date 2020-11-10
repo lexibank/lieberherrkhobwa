@@ -1,7 +1,7 @@
 {
     "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lieberherr, Ismail and Bodt, Timotheus Adrianus (2017): Sub-grouping Kho-Bwa based on shared core vocabulary. Himalayan Linguistics 16(2). 26-63. URL: https://escholarship.org/uc/item/4t27h5fg</p>\n</blockquote>",
     "license": {
-        "id": "CC-BY-NC-4.0"
+        "id": "CC-BY-4.0"
     },
     "title": "CLDF dataset derived from Lieberherr and Bodt's \"Comparative Wordlists of Kho-Bwa\" from 2017",
     "keywords": [
