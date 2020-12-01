@@ -26,20 +26,30 @@
     "publication_date": "2019-01-30",
     "creators": [
         {
-            "name": "Tiago Tresoldi"
+            "name": "Ismail Lieberherr"
         },
         {
-            "name": "Johann-Mattis List"
-        },
-        {
-            "name": "Robert Forkel"
-        },
-        {
-            "name": "Christoph Rzymski"
+            "name": "Timotheus Adrianus Bodt"
         }
     ],
     "access_right": "open",
     "contributors": [
+        {
+            "name": "Tiago Tresoldi",
+            "type": "Other"
+        },
+        {
+            "name": "Johann-Mattis List",
+            "type": "Other"
+        },
+        {
+            "name": "Robert Forkel",
+            "type": "Other"
+        },
+        {
+            "name": "Christoph Rzymski",
+            "type": "Other"
+        },
         {
             "name": "Ismail Lieberherr",
             "type": "DataCurator"

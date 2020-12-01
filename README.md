@@ -11,6 +11,14 @@ Available online at https://doi.org/10.5281/zenodo.1154518
 
 Conceptlists in Concepticon:
 - [Lieberherr-2017-100](https://concepticon.clld.org/contributions/Lieberherr-2017-100)
+## Notes
+
+This data set consists of lexical entries for one hundred
+concepts, based on the concept lists of [Haspelmath and Tadmor (2009)](https://concepticon.clld.org/contributions/Haspelmath-2009-1460) and [Swadesh (1971)](https://concepticon.clld.org/contributions/Swadesh-1971-100).
+Entries were translated into twenty-two languages of the Kho-Bwa subgroup of the Sino-Tibetan language family and were annotated with respect to cognacy information. 
+
+
+
 ## Statistics
 
 
@@ -37,11 +45,11 @@ Conceptlists in Concepticon:
 
 Name | GitHub user | Description | Role
 --- | --- | --- | --- |
-Tiago Tresoldi | @tresoldi | patron, orthography | Author
-Johann-Mattis List | @lingulist | code, orthography, concepts | Author
-Robert Forkel | @xrotwang | code, integration | Author
-Christoph Rzymski | @chrzyki | code, integraration | Author
-Ismail Lieberherr | | | DataCurator, Distributor
-Timotheus Adrianus Bodt | | | DataCurator, Distributor
+Tiago Tresoldi | @tresoldi | patron, orthography | Other
+Johann-Mattis List | @lingulist | code, orthography, concepts | Other
+Robert Forkel | @xrotwang | code, integration | Other
+Christoph Rzymski | @chrzyki | code, integraration | Other
+Ismail Lieberherr | | | DataCurator, Distributor, Author
+Timotheus Adrianus Bodt | | | DataCurator, Distributor, Author
 
 
