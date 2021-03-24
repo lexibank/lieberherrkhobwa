@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lieberherrkhobwa",
-            "dc:created": "v0.1.2-31-g62b3473"
+            "dc:created": "v0.9"
         },
         {
             "rdf:type": "prov:Entity",
@@ -36,13 +36,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts",
-            "dc:created": "v1.4-134-gbd582c4"
+            "dc:created": "v2.0.0"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.5"
+            "dc:description": "3.8.7"
         },
         {
             "dc:title": "python-packages",
