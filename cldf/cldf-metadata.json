@@ -18,12 +18,12 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/lieberherrkhobwa",
-            "dc:created": "v0.1.2-22-g599d555"
+            "dc:created": "v0.1.2-29-g4ba2d48"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/glottolog/glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog/",
             "dc:created": "v4.3"
         },
         {
@@ -36,13 +36,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v1.4"
+            "dc:created": "v2.0.0"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.5.2"
+            "dc:description": "3.9.2"
         },
         {
             "dc:title": "python-packages",
