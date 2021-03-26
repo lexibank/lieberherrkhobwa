@@ -4,17 +4,27 @@ Cite the source dataset as
 
 > Lieberherr, Ismail and Bodt, Timotheus Adrianus (2017): Sub-grouping Kho-Bwa based on shared core vocabulary. Himalayan Linguistics 16(2). 26-63. URL: https://escholarship.org/uc/item/4t27h5fg
 
-This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/ license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://doi.org/10.5281/zenodo.1154518
 
 
 Conceptlists in Concepticon:
 - [Lieberherr-2017-100](https://concepticon.clld.org/contributions/Lieberherr-2017-100)
+## Notes
+
+This data set consists of lexical entries for one hundred
+concepts, based on the concept lists of [Haspelmath and Tadmor (2009)](https://concepticon.clld.org/contributions/Haspelmath-2009-1460) and [Swadesh (1971)](https://concepticon.clld.org/contributions/Swadesh-1971-100).
+Entries were translated into twenty-two languages of the Kho-Bwa subgroup of the Sino-Tibetan language family and were annotated with respect to cognacy information.
+
+A tutorial accompanying this data set and providing first steps towards an analysis can be found [here](https://github.com/lexibank/phylogenetics-data-management-tutorial/blob/master/Tutorial.md).
+
+
+
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/lieberherrkhobwa.svg?branch=master)](https://travis-ci.org/lexibank/lieberherrkhobwa)
+[![CLDF validation](https://github.com/lexibank/lieberherrkhobwa/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lieberherrkhobwa/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -37,11 +47,11 @@ Conceptlists in Concepticon:
 
 Name | GitHub user | Description | Role
 --- | --- | --- | --- |
-Tiago Tresoldi | @tresoldi | patron, orthography | Author
-Johann-Mattis List | @lingulist | code, orthography, concepts | Author
-Robert Forkel | @xrotwang | code, integration | Author
-Christoph Rzymski | @chrzyki | code, integraration | Author
-Ismail Lieberherr | | | DataCurator, Distributor
-Timotheus Adrianus Bodt | | | DataCurator, Distributor
+Tiago Tresoldi | @tresoldi | patron, orthography | Other
+Johann-Mattis List | @lingulist | code, orthography, concepts | Other
+Robert Forkel | @xrotwang | code, integration | Other
+Christoph Rzymski | @chrzyki | code, integraration | Other
+Ismail Lieberherr | | | DataCurator, Distributor, Author
+Timotheus Adrianus Bodt | | | DataCurator, Distributor, Author
 
 
