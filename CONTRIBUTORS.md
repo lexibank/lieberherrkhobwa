@@ -2,7 +2,7 @@
 
 Name | GitHub user | Description | Role
 --- | --- | --- | --- |
-Tiago Tresoldi | @tresoldi | patron, orthography | Other
+Tiago Tresoldi | @tresoldi | orthography | Other
 Johann-Mattis List | @lingulist | code, orthography, concepts | Other
 Robert Forkel | @xrotwang | code, integration | Other
 Christoph Rzymski | @chrzyki | code, integraration | Other
