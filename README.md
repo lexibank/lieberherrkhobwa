@@ -1,8 +1,16 @@
 # CLDF dataset derived from Lieberherr and Bodt's "Comparative Wordlists of Kho-Bwa" from 2017
 
-Cite the source dataset as
+[![CLDF validation](https://github.com/lexibank/lieberherrkhobwa/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/lieberherrkhobwa/actions?query=workflow%3ACLDF-validation)
 
-> Lieberherr, Ismail and Bodt, Timotheus Adrianus (2017): Sub-grouping Kho-Bwa based on shared core vocabulary. Himalayan Linguistics 16(2). 26-63. URL: https://escholarship.org/uc/item/4t27h5fg
+## How to cite
+
+If you use these data please cite
+- the original source
+  > Lieberherr, Ismail and Bodt, Timotheus Adrianus (2017): Sub-grouping Kho-Bwa based on shared core vocabulary. Himalayan Linguistics 16(2). 26-63. URL: https://escholarship.org/uc/item/4t27h5fg
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CC-BY-4.0 license
 
@@ -47,7 +55,7 @@ A tutorial accompanying this data set and providing first steps towards an analy
 
 Name | GitHub user | Description | Role
 --- | --- | --- | --- |
-Tiago Tresoldi | @tresoldi | patron, orthography | Other
+Tiago Tresoldi | @tresoldi | orthography | Other
 Johann-Mattis List | @lingulist | code, orthography, concepts | Other
 Robert Forkel | @xrotwang | code, integration | Other
 Christoph Rzymski | @chrzyki | code, integraration | Other
@@ -55,3 +63,10 @@ Ismail Lieberherr | | | DataCurator, Distributor, Author
 Timotheus Adrianus Bodt | | | DataCurator, Distributor, Author
 
 
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
