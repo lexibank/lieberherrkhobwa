@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/lieberherrkhobwa",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1.2-38-ga8de128",
+            "dc:created": "v1.0.0-1-g10c0d53",
             "dc:title": "Repository"
         },
         {
@@ -33,16 +33,20 @@
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.0.0",
+            "dc:created": "v2.1.0",
             "dc:title": "CLTS"
         }
     ],
     "prov:wasGeneratedBy": [
         {
+            "dc:title": "lingpy-rcParams",
+            "dc:relation": "lingpy-rcParams.json"
+        },
+        {
             "dc:title": "python",
-            "dc:description": "3.9.5"
+            "dc:description": "3.8.10"
         },
         {
             "dc:title": "python-packages",
@@ -57,6 +61,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
             "dc:extent": 2144,
             "tableSchema": {
                 "columns": [
