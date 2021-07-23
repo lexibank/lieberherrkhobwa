@@ -18,6 +18,6 @@ setup(
         "lexibank.dataset": ["lieberherrkhobwa=lexibank_lieberherrkhobwa:Dataset"],
         "cldfbench.commands": ["lieberherrkhobwa=commands"],
     },
-
+    extras_require={"test": ["pytest-cldf"]},
     install_requires=["pylexibank>=3.0.0"],
 )
