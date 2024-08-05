@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import json
 
 
@@ -10,6 +10,7 @@ setup(
     name="lexibank_lieberherrkhobwa",
     description=metadata["title"],
     license=metadata.get("license", ""),
+    packages=find_packages(where="."),
     url=metadata.get("url", ""),
     py_modules=["lexibank_lieberherrkhobwa"],
     include_package_data=True,

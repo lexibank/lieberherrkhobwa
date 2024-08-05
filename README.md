@@ -39,8 +39,8 @@ A tutorial accompanying this data set and providing first steps towards an analy
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 22
-- **Concepts:** 100
+- **Varieties:** 22 (linked to 21 different Glottocodes)
+- **Concepts:** 100 (linked to 100 different Concepticon concept sets)
 - **Lexemes:** 2,144
 - **Sources:** 3
 - **Synonymy:** 1.01
@@ -48,7 +48,7 @@ A tutorial accompanying this data set and providing first steps towards an analy
 - **Cognate Diversity:** 0.10
 - **Invalid lexemes:** 0
 - **Tokens:** 9,146
-- **Segments:** 164 (0 BIPA errors, 0 CTLS sound class errors, 164 CLTS modified)
+- **Segments:** 164 (0 BIPA errors, 0 CLTS sound class errors, 164 CLTS modified)
 - **Inventory size (avg):** 49.41
 
 # Contributors
@@ -56,9 +56,9 @@ A tutorial accompanying this data set and providing first steps towards an analy
 Name | GitHub user | Description | Role
 --- | --- | --- | --- |
 Tiago Tresoldi | @tresoldi | orthography | Other
-Johann-Mattis List | @lingulist | code, orthography, concepts | Other
-Robert Forkel | @xrotwang | code, integration | Other
-Christoph Rzymski | @chrzyki | code, integraration | Other
+Johann-Mattis List | @lingulist | code, orthography, concepts | Editor
+Robert Forkel | @xrotwang | code, integration | Editor
+Christoph Rzymski | @chrzyki | code, integraration | Editor
 Ismail Lieberherr | | | DataCurator, Distributor, Author
 Timotheus Adrianus Bodt | | | DataCurator, Distributor, Author
 
