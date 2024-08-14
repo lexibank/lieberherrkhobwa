@@ -25,9 +25,10 @@ class Dataset(BaseDataset):
     id = "lieberherrkhobwa"
     dir = Path(__file__).parent
     language_class = KBLanguage
+    writer_options = dict(keep_languages=False, keep_parameters=False)
     form_spec = FormSpec(separators="~/,;⪤", missing_data=("NA",))
 
-    def cmd_download(self, **kw):
+    def cmd_download(self, args):
         """
         Download the raw zipped data and extract it.
         """
